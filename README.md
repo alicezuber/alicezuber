@@ -1,4 +1,8 @@
-<img src="https://count.getloli.com/get/@:name" alt=":name" />
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+  </a>
+</p>
 - <h1>嗨，我是LpX投擲工作室的闆闆</h1>
 然後就沒了
 
