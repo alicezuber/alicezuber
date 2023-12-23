@@ -5,7 +5,7 @@
   </a>
 </p>
 <h3 align="center">
- 1<br> 2 <br> 3 <br> mic test!
+ 1~ <br> 2~<br> 3~<br> mic test!
 </h3>
 
 
