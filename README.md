@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=c,css,discord,github,nodejs,postman,py,sqlite,selenium,twitter,vscode" />
   </a>
 </p>
 - <h1>嗨，我是LpX投擲工作室的闆闆</h1>
