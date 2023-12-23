@@ -4,7 +4,7 @@
     <img src="https://skillicons.dev/icons?i=c,css,discord,github,nodejs,postman,py,sqlite,selenium,twitter,vscode" />
   </a>
 </p>
- 1<br> 2 <br> 3 <3> mic test!
+ 1<br> 2 <br> 3 <br> mic test!
 
 
 
