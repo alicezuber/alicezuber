@@ -4,8 +4,9 @@
     <img src="https://skillicons.dev/icons?i=c,css,discord,github,nodejs,postman,py,sqlite,selenium,twitter,vscode" />
   </a>
 </p>
+<h3 align="center">
  1<br> 2 <br> 3 <br> mic test!
-
+</h3>
 
 
 <!---
