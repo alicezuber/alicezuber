@@ -1,3 +1,4 @@
+<img src="https://count.getloli.com/get/@:name" alt=":name" />
 - <h1>嗨，我是LpX投擲工作室的闆闆</h1>
 然後就沒了
 
