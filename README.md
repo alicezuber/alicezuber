@@ -7,6 +7,15 @@
 <h3 align="center">
  1~ <br> 2~<br> 3~<br> mic test!
 </h3>
+<h1 align="center">about me
+<br>I form <a href="https://en.wikipedia.org/wiki/Geography_of_Taiwan">Taiwan</a>
+<br>I am a Information Management studen 
+<br>
+<br>
+<br>
+<br>
+</h1>
+
 <h4 align="center">contact me
 <br>DC: 632835000617926657
 <br>twitter: <a href="https://twitter.com/Captain_Baiyun"> Captain_Baiyun</a>
