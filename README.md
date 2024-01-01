@@ -6,9 +6,11 @@
 
 > No matter what kind of person.
 > 無論是什麼樣的人，
+> どんな人でも
 >
-> When you hold hands, you are a friend!
+> if you hold hands You're already a friend!
 > 只要牽起手來就是朋友！
+> 手を繋げばもう友達さ！
 
 ## about me
 
