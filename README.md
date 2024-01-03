@@ -12,7 +12,7 @@
 
 ## about me
 
-I form [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 I am a Information Management studen
 
