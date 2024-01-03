@@ -16,7 +16,7 @@ I form [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 I am a Information Management studen
 
-I am makeing a GLM AI daughter
+I am makeing a GLM AI daughter Minato Yoame
 
 ## contact me
 
