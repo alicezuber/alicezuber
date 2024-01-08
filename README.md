@@ -16,7 +16,7 @@ I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 I am a Information Management studen
 
-I am makeing a GLM AI daughter Minato Yoame
+I am makeing a LLM AI daughter Minato Yoame
 
 ## contact me
 
@@ -24,4 +24,4 @@ DC: lpxcaptainbaiyun
 
 twitter: [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
 
-gmail:
+gmail:satenruiko316@gmail.com
