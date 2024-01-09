@@ -3,6 +3,12 @@
 
 <img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,py,nodejs,md,html,js,css,c," />
 
+<div align="right">
+  <img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&theme=bright_lights">
+</div>
+
+
+
 > どんな人でも手を繋げばもう友達さ！
 
 > No matter who you are, if we hold hands You're alread my friend!
@@ -25,3 +31,4 @@ DC: lpxcaptainbaiyun
 Twitter: [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
 
 Gmail:satenruiko316@gmail.com
+
