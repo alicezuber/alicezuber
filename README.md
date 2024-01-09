@@ -22,6 +22,6 @@ I am makeing a LLM AI daughter Minato Yoame
 
 DC: lpxcaptainbaiyun
 
-twitter: [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
+Twitter: [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
 
-gmail:satenruiko316@gmail.com
+Gmail:satenruiko316@gmail.com
