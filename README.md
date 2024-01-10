@@ -3,7 +3,7 @@
 
 <img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,py,nodejs,md,html,js,css,c," />
 
-<div align="right">
+<div align="center">
   <img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&theme=bright_lights">
 </div>
 
