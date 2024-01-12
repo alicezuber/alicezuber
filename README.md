@@ -9,7 +9,7 @@
 
 
 
-> どんな人でも手を繋げばもう友達さ！
+> **どんな人でも手を繋げばもう友達さ！**
 
 > No matter who you are, if we shake hands You're alread my friend!
 
