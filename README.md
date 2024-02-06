@@ -15,6 +15,14 @@
 
 > **無論是什麼樣的人， 只要牽起手來就是朋友！**
 
+> 青青子衿，悠悠我心。
+> 縱我不往，子寧不嗣音？
+> 
+> 青青子佩，悠悠我思。
+> 縱我不往，子寧不來？
+> 
+> 挑兮達兮，在城闕兮。
+> 一日不見，如三月兮！
 
 ## about me
 
@@ -23,6 +31,8 @@ I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 I am a Information Management studen
 
 I am makeing a LLM AI daughter Minato Yoame
+
+
 
 ## contact me
 
