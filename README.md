@@ -30,8 +30,9 @@ I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 I am a Information Management studen
 
-I am makeing a LLM AI daughter Minato Yoame
+I am making a LLM AI daughter Minato Yoame
 
+I am making a website for my LAN
 
 
 ## contact me
