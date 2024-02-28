@@ -1,7 +1,8 @@
 <h1 style="color:red;"> Hi，I am Minato Baiyun </h1>
 
 
-<img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,py,nodejs,md,html,js,css,c,java" />
+<img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,wordpress" />
+<img src="https://skillicons.dev/icons?i=py,nodejs,md,html,js,css,c,java,discordjs" />
 
 <div align="center">
   <img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&theme=bright_lights">
