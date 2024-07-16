@@ -22,9 +22,7 @@ I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 I am a Information Management studen
 
-I am making a LLM AI daughter Minato Shigure
-
-I am making a website for my LAN
+I am try to train a LLM AI daughter "Minato Shigure"
 
 <!--You can contact me for English to traditional Chinese translations if needed-->
 
