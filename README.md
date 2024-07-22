@@ -7,42 +7,48 @@
 ---
 Some content uses translation. If you have any questions about the content, please contact me.
 ---
-## 最近的目標 recent goals 最近的目標
-### 進度 schedule スケジュール 99%
->讓github自我介紹有三種語言
+## 最近的目標 Recent goals 最近的目標
 
->Let github introduce itself in three languages
+>讓github自我介紹有三種語言->進度 =99%
 
->github を 3 つの言語で紹介しましょう
+>Let the self-introduction on github be available in three languages->Schedule =99%
+
+>github の自己紹介を 3 ヶ国語対応にしましょう->スケジュール =99%
 
 >
 >
 
 
 ---
+# 我的座右銘 My motto 私のモットー
 
-> **どんな人でも手を繋げばもう友達さ！**
+> **どんな人でも手を繋げばもう友達さ！** ---ビカラ(十二神将)
 
-> No matter who you are, if we shake hands You're alread my friend!
+> **No matter who you are, if we shake hands You're alread my friend!** ---ビカラ(十二神将)
 
-> **無論是什麼樣的人， 只要牽起手來就是朋友！**
+> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---ビカラ(十二神将)
 
 
 ---
 ## about me
 
-我來自 [台灣](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
-I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+我來自[台灣](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 我是資訊管理的學生
-I am a Information Management student
-私は情報管理学科の学生です
 
 我正在製作一個 Discord 機器人“[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)”
 > 未來會增加AI功能
 
+I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+
+I am a Information Management student
+
 I am making a Discord bot "[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)"
 > AI functions will be added in the future
+
+私は[台湾人](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+
+私は情報管理学科の学生です
 
 Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を製作中です
 > AI機能は今後追加予定です
@@ -73,7 +79,7 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 -->
 ## 為什麼我的github沒有很多公開儲藏庫？
 
-因為以前的我都會程式公開，直到我不小心上傳了key，所以我現在主要是都開私人儲藏庫。
+因為以前的我都會程式公開，直到我不小心上傳了Api key，所以我現在主要是都開私人儲藏庫。
 
 ## Why doesn’t my github have many public repository?
 
