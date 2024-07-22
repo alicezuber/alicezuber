@@ -22,7 +22,9 @@ I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
 I am a Information Management studen
 
-I am try to train a LLM AI daughter "Minato Shigure"
+I am making a dc bot daughter "[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)"
+> AI functions will be added in the future
+
 
 <!--You can contact me for English to traditional Chinese translations if needed-->
 
