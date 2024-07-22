@@ -8,7 +8,7 @@
 Some content uses translation. If you have any questions about the content, please contact me.
 ---
 ## 最近的目標 recent goals 最近的目標
-### 進度 schedule スケジュール 70%
+### 進度 schedule スケジュール 99%
 >讓github自我介紹有三種語言
 
 >Let github introduce itself in three languages
@@ -31,16 +31,20 @@ Some content uses translation. If you have any questions about the content, plea
 ---
 ## about me
 
+我來自 [台灣](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
 
+我是資訊管理的學生
 I am a Information Management student
-
 私は情報管理学科の学生です
 
-I am making a dc bot "[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)"
+我正在製作一個 Discord 機器人“[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)”
+> 未來會增加AI功能
+
+I am making a Discord bot "[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)"
 > AI functions will be added in the future
 
-DCボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を製作中です
+Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を製作中です
 > AI機能は今後追加予定です
 
 <!--You can contact me for English to traditional Chinese translations if needed-->
@@ -67,6 +71,9 @@ DCボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584
 > 
 > 挑兮達兮，在城闕兮。一日不見，如三月兮！
 -->
+## 為什麼我的github沒有很多公開儲藏庫？
+
+因為以前的我都會程式公開，直到我不小心上傳了key，所以我現在主要是都開私人儲藏庫。
 
 ## Why doesn’t my github have many public repository?
 
