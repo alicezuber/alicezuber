@@ -3,7 +3,7 @@
 
 <img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,wordpress" />
 <img src="https://skillicons.dev/icons?i=py,nodejs,md,html,js,css,c,java,discordjs" />
-
+<img src="https://skillicons.dev/icons?i=cpp" />
 ---
 Some content uses translation. If you have any questions about the content, please contact me.
 ---
