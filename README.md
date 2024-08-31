@@ -1,35 +1,12 @@
 <h1 style="color:red;"> Hi，I am Minato Baiyun </h1>
 
+## my skill
 
 <img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,wordpress" />
-<img src="https://skillicons.dev/icons?i=py,nodejs,md,html,js,css,c,java,discordjs" />
-<img src="https://skillicons.dev/icons?i=cpp" />
----
-Some content uses translation. If you have any questions about the content, please contact me.
----
-## 最近的目標 Recent goals 最近的目標
-
->讓github自我介紹有三種語言->進度 =99%
-
->Let the self-introduction on github be available in three languages->Schedule =99%
-
->github の自己紹介を 3 ヶ国語対応にしましょう->スケジュール =99%
-
->
->
+<img src="https://skillicons.dev/icons?i=html,css,php,js,nodejs,jquery,discordjs,java,md" />
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,anaconda,cmake,dotnet,py,pytorch,docker" />
 
 
----
-# 我的座右銘 My motto 私のモットー
-
-> **どんな人でも手を繋げばもう友達さ！** ---ビカラ(十二神将)
-
-> **No matter who you are, if we shake hands You're alread my friend!** ---ビカラ(十二神将)
-
-> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---ビカラ(十二神将)
-
-
----
 ## about me
 
 我來自[台灣](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
@@ -56,7 +33,36 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 <!--You can contact me for English to traditional Chinese translations if needed-->
 
 ---
-## 聯繫我 contact me 私に連絡して
+
+Some content uses translation. If you have any questions about the content, please contact me.
+
+---
+
+# 最近的目標 Recent goals 最近的目標
+
+>讓github自我介紹有三種語言->進度 =99%
+
+>Let the self-introduction on github be available in three languages->Schedule =99%
+
+>github の自己紹介を 3 ヶ国語対応にしましょう->スケジュール =99%
+
+>
+>
+
+
+---
+# 我的座右銘 My motto 私のモットー
+
+> **どんな人でも手を繋げばもう友達さ！** ---ビカラ(十二神将)
+
+> **No matter who you are, if we shake hands You're alread my friend!** ---ビカラ(十二神将)
+
+> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---ビカラ(十二神将)
+
+
+
+---
+# 聯繫我 contact me 私に連絡して
 
 <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">: captainbaiyun
 
@@ -83,7 +89,7 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 
 ## Why doesn’t my github have many public repository?
 
-Because I used to make the program public until I accidentally uploaded the key, so I now use it mostly privately.
+Because I used to make the program public until I accidentally uploaded the API key, so I now use it mostly privately.
 
 ## 私の github にはなぜ公開リポジトリがあまりないのでしょうか?
 
