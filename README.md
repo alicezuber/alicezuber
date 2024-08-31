@@ -2,9 +2,9 @@
 
 ## my skill
 
-<img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,wordpress" />
-<img src="https://skillicons.dev/icons?i=html,css,php,js,nodejs,jquery,discordjs,java,md" />
-<img src="https://skillicons.dev/icons?i=c,cpp,cs,anaconda,cmake,dotnet,py,pytorch,docker" />
+<img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,wordpress&theme=light" />
+<img src="https://skillicons.dev/icons?i=html,css,php,js,nodejs,jquery,discordjs,java,md&theme=light" />
+<img src="https://skillicons.dev/icons?i=c,cpp,cs,anaconda,cmake,dotnet,py,pytorch,docker&theme=light" />
 
 
 ## about me
