@@ -23,7 +23,7 @@ Here is a summary of my coding activity over the past year:
 
 此外，我也參與翻譯各種遊戲、模組和插件。
 
-I am from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan).
+I am from [Taiwan](https://en.wikipedia.org/wiki/Taiwan).
 
 I am a student of Information Management.
 
