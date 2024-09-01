@@ -36,10 +36,6 @@ Additionally, I am involved in translating games, mods, and plugins.
 
 ---
 
-Some content uses translation. If you have any questions about the content, please contact me.
-
----
-
 ## What am I doing lately
 
 我目前正在開發一個名為 “[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)” 的 Discord 機器人。
