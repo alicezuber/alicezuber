@@ -52,11 +52,11 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 
 <p align="left"><img src="https://github.com/user-attachments/assets/0ea66d7d-9126-459d-b6b3-cc2864c65f11" /></p>
 
-> **どんな人でも手を繋げばもう友達さ！** ---ビカラ(十二神将)
+> **どんな人でも手を繋げばもう友達さ！** ---[ビカラ(十二神将)](https://dic.pixiv.net/a/%E3%83%93%E3%82%AB%E3%83%A9)
 
-> **No matter who you are, if we shake hands You're alread my friend!** ---Vikala(十二神将)
+> **No matter who you are, if we shake hands You're alread my friend!** ---[Vikala(十二神将)](https://gbf.wiki/Vikala)
 
-> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---畢卡拉(十二神将)
+> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---[畢卡拉(十二神将)](https://gbf.huijiwiki.com/wiki/Char/3040252000)
 
 
 
