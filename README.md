@@ -1,36 +1,39 @@
-<h1 style="color:red;"> Hi，I am Minato Baiyun </h1>
+# Hi, I am Minato Baiyun
 
-## my skill
+## My Skills
 
-<img src="https://skillicons.dev/icons?i=discord,twitter,vscode,postman,github,git,sqlite,selenium,wordpress&theme=light" />
-<img src="https://skillicons.dev/icons?i=html,css,php,js,nodejs,jquery,discordjs,java,md&theme=light" />
-<img src="https://skillicons.dev/icons?i=c,cpp,cs,anaconda,cmake,dotnet,py,pytorch,docker&theme=light" />
+<p align="center"><img src="https://skillicons.dev/icons?i=windows,vscode,postman,github,git,docker,wordpress,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=vue,php,nodejs,html,css,js,jquery,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=md,java,c,cpp,cs,py,mysql,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=sqlite,selenium,pytorch,anaconda,discord,twitter,cmake,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=dotnet,linux,nginx,npm,opencv,a,a,&theme=light" /></p>
 
+## My GitHub Trends
+Here is a summary of my coding activity over the past year:
 
-## about me
+<p align="center">
+<img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&loc_metric=changed&compact=True&theme=dark" />
+</p>
 
-我來自[台灣](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+## About Me
 
-我是資訊管理的學生
+我來自[台灣]([https://en.wikipedia.org/wiki/Geography_of_Taiwan](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9C%B0%E7%90%86))。
 
-我正在製作一個 Discord 機器人“[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)”
-> 未來會增加AI功能
+我是資訊管理專業的學生。
 
-I from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+此外，我也參與翻譯各種遊戲、模組和插件。
 
-I am a Information Management student
+I am from [Taiwan](https://en.wikipedia.org/wiki/Geography_of_Taiwan).
 
-I am making a Discord bot "[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)"
-> AI functions will be added in the future
+I am a student of Information Management.
 
-私は[台湾人](https://en.wikipedia.org/wiki/Geography_of_Taiwan)
+Additionally, I am involved in translating games, mods, and plugins.
 
-私は情報管理学科の学生です
+私は[台湾]([https://en.wikipedia.org/wiki/Geography_of_Taiwan](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E3%81%AE%E5%9C%B0%E7%90%86))出身です。
 
-Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を製作中です
-> AI機能は今後追加予定です
+情報管理(Information Management)を専攻しています。
 
-<!--You can contact me for English to traditional Chinese translations if needed-->
+さらに、ゲーム、MOD、プラグインの翻訳にも携わっています。
 
 ---
 
@@ -38,61 +41,39 @@ Some content uses translation. If you have any questions about the content, plea
 
 ---
 
-# 最近的目標 Recent goals 最近的目標
+## What am I doing lately
 
->讓github自我介紹有三種語言->進度 =99%
+我目前正在開發一個名為 “[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)” 的 Discord 機器人。
+> 未來會增加 AI 功能。
 
->Let the self-introduction on github be available in three languages->Schedule =99%
+I am currently developing a Discord bot called “[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)”.
+> AI functionality will be added in the future.
 
->github の自己紹介を 3 ヶ国語対応にしましょう->スケジュール =99%
-
->
->
-
+Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を開発しています。
+> 今後、AI機能が追加される予定です。
 
 ---
-# 我的座右銘 My motto 私のモットー
+
+## My Motto
 
 > **どんな人でも手を繋げばもう友達さ！** ---ビカラ(十二神将)
 
-> **No matter who you are, if we shake hands You're alread my friend!** ---ビカラ(十二神将)
+> **No matter who you are, if we shake hands, you're already my friend!** ---ビカラ(十二神将)
 
 > **無論是什麼樣的人， 只要牽起手來就是朋友！** ---ビカラ(十二神将)
 
-
-
 ---
-# 聯繫我 contact me 私に連絡して
 
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">: captainbaiyun
+## Contact Me
 
-<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">: [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
+- <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> captainbaiyun
+- <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"> [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
+- <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> satenruiko316@gmail.com
 
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">:satenruiko316@gmail.com
-<!--
-<div align="center">
-  <img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&theme=bright_lights">
-</div>
--->
-<!--
-## 鄭風 子衿
+## Why doesn’t my GitHub have many public repositories?
 
-> 青青子衿，悠悠我心。縱我不往，子寧不嗣音？
-> 
-> 青青子佩，悠悠我思。縱我不往，子寧不來？
-> 
-> 挑兮達兮，在城闕兮。一日不見，如三月兮！
--->
-## 為什麼我的github沒有很多公開儲藏庫？
+因為以前我都會公開程式碼，但自從我不小心上傳了 API key 後，現在大多數儲存庫都是私有的。
 
-因為以前的我都會程式公開，直到我不小心上傳了Api key，所以我現在主要是都開私人儲藏庫。
+I used to make my repositories public, but after accidentally uploading an API key, I now keep most of them private.
 
-## Why doesn’t my github have many public repository?
-
-Because I used to make the program public until I accidentally uploaded the API key, so I now use it mostly privately.
-
-## 私の github にはなぜ公開リポジトリがあまりないのでしょうか?
-
-以前はプログラムを公開していましたが、誤ってキーをアップロードしてしまったため、現在はほとんど非公開で使用しています。
-
-
+以前はリポジトリを公開していましたが、APIキーを誤ってアップロードしてしまったため、現在はほとんど非公開にしています。
