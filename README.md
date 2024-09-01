@@ -34,7 +34,7 @@ Additionally, I am involved in translating games, mods, and plugins.
 
 さらに、ゲーム、MOD、プラグインの翻訳にも携わっています。
 
----
+
 
 ## What am I doing lately
 
@@ -47,7 +47,7 @@ I am currently developing a Discord bot called “[Minato Shigure](<https://www.
 Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を開発しています。
 > 今後、AI機能が追加される予定です。
 
----
+
 
 ## My Motto
 
@@ -57,7 +57,7 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 
 > **無論是什麼樣的人， 只要牽起手來就是朋友！** ---ビカラ(十二神将)
 
----
+
 
 ## Contact Me
 
