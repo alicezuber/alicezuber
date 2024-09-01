@@ -51,11 +51,13 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 
 ## My Motto
 
+<p align="left"><img src="https://github.com/user-attachments/assets/0ea66d7d-9126-459d-b6b3-cc2864c65f11" /></p>
+
 > **どんな人でも手を繋げばもう友達さ！** ---ビカラ(十二神将)
 
-> **No matter who you are, if we shake hands, you're already my friend!** ---ビカラ(十二神将)
+> **No matter who you are, if we shake hands You're alread my friend!** ---Vikala(十二神将)
 
-> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---ビカラ(十二神将)
+> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---畢卡拉(十二神将)
 
 
 
@@ -72,3 +74,14 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 I used to make my repositories public, but after accidentally uploading an API key, I now keep most of them private.
 
 以前はリポジトリを公開していましたが、APIキーを誤ってアップロードしてしまったため、現在はほとんど非公開にしています。
+
+
+---
+
+# Disclaimer 
+
+The images used in this profile to showcase the games I play are the property of their respective copyright holders. These images are used solely for personal, non-commercial purposes to demonstrate my hobbies and interests. If there are any concerns regarding the use of these images, please feel free to contact me, and I will address the issue promptly.
+
+此個人資料中展示的遊戲圖片屬於其各自版權持有者。這些圖片僅用於個人非商業用途，以展示我的興趣和愛好。如果對這些圖片的使用有任何疑慮，請隨時與我聯繫，我會盡快處理相關問題。
+
+このプロフィールで使用されているゲーム画像は、それぞれの著作権者に帰属します。これらの画像は、私の趣味や興味を示すために、個人的かつ非商業的な目的でのみ使用されています。画像の使用に関して問題がある場合は、お気軽にご連絡ください。速やかに対応いたします。
