@@ -17,7 +17,7 @@ Here is a summary of my coding activity over the past year:
 
 ## About Me
 
-我來自[台灣]([https://en.wikipedia.org/wiki/Geography_of_Taiwan](https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%9C%B0%E7%90%86))。
+我來自[台灣](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3)。
 
 我是資訊管理專業的學生。
 
@@ -29,7 +29,7 @@ I am a student of Information Management.
 
 Additionally, I am involved in translating games, mods, and plugins.
 
-私は[台湾]([https://en.wikipedia.org/wiki/Geography_of_Taiwan](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE%E3%81%AE%E5%9C%B0%E7%90%86))出身です。
+私は[台湾](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE)出身です。
 
 情報管理(Information Management)を専攻しています。
 
