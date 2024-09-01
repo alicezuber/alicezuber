@@ -2,11 +2,10 @@
 
 ## My Skills
 
-<p align="center"><img src="https://skillicons.dev/icons?i=windows,vscode,postman,github,git,docker,wordpress,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=vue,php,nodejs,html,css,js,jquery,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=md,java,c,cpp,cs,py,mysql,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=sqlite,selenium,pytorch,anaconda,discord,twitter,cmake,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=dotnet,linux,nginx,npm,opencv,a,a,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=windows,vscode,postman,github,git,docker,wordpress,linux,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=vue,php,nodejs,html,css,js,jquery,nginx,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=md,java,c,cpp,cs,py,mysql,npm,&theme=light" /></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=sqlite,selenium,pytorch,anaconda,discord,twitter,cmake,dotnet,&theme=light" /></p>
 
 ## My GitHub Trends
 
