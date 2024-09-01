@@ -9,7 +9,6 @@
 <p align="center"><img src="https://skillicons.dev/icons?i=dotnet,linux,nginx,npm,opencv,a,a,&theme=light" /></p>
 
 ## My GitHub Trends
-Here is a summary of my coding activity over the past year:
 
 <p align="center">
 <img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&loc_metric=changed&compact=True&theme=dark" />
