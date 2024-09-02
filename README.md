@@ -66,14 +66,6 @@ Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-1
 - <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"> [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
 - <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> satenruiko316@gmail.com
 
-## Why doesn’t my GitHub have many public repositories?
-
-因為以前我都會公開程式碼，但自從我不小心上傳了 API key 後，現在大多數儲存庫都是私有的。
-
-I used to make my repositories public, but after accidentally uploading an API key, I now keep most of them private.
-
-以前はリポジトリを公開していましたが、APIキーを誤ってアップロードしてしまったため、現在はほとんど非公開にしています。
-
 
 ---
 
