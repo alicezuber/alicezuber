@@ -158,3 +158,13 @@ dark .disclaimer-card {
 
 .swiper-pagination-bullet-active {
     background: #4ECDC4}
+
+@media screen and (max-width: 768px) {
+    .bg-img-1 {
+            background-image: url("../img/kotone.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+    }
+    
+}
