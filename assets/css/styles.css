@@ -161,7 +161,7 @@ dark .disclaimer-card {
 
 @media screen and (max-width: 768px) {
     .bg-img-1 {
-            background-image: url("../img/kotone.jpg");
+            background-image: url("../img/koton.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
