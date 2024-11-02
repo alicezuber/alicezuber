@@ -1,0 +1,160 @@
+/* Base Styles */
+:root {
+    --gradient-text: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+}
+
+body {
+    font-family: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', sans-serif;
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.gradient-text1 {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+dark .gradient-text1{
+    color: white;
+}
+
+/* Social Links */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+}
+
+.social-link.discord {
+    background: #5865F2;
+    color: white;
+}
+
+.social-link.twitter {
+    background: #1DA1F2;
+    color: white;
+}
+.social-link.github {
+    background: #c0c0c0;
+    color: white;
+}
+.social-link.gmail {
+    background: #D14836;
+    color: white;
+}
+.bg-img-1 {
+    background-image: url("../img/kotone.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+}
+
+/* Skill Icons Animation */
+.skill-icons img {
+    max-width: 50%;
+    transition: transform 0.3s ease;
+}
+
+.skill-icons img:hover {
+    transform: translateY(-5px);
+}
+
+
+
+/* Project Cards */
+.project-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+dark .project-card {
+    background: #cfcfcf;
+    color: white;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Tech Tags */
+.tech-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 0.875rem;
+    margin: 0.25rem;
+}
+
+dark .tech-tag {
+    background: #cfcfcf;
+    color: #f3f4f6;
+}
+
+/* Code Cards */
+.code-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+dark .code-card {
+    background: #cfcfcf;
+    color: white;
+}
+
+.code-card pre {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #f8f9fa;
+    overflow-x: auto;
+}
+
+dark .code-card pre {
+    background: #999999;
+    color: white;
+}
+
+/* Disclaimer Cards */
+.disclaimer-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+dark .disclaimer-card {
+    background: #cfcfcf;
+    color: white;
+}
+
+/* Swiper Customization */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #4ECDC4 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4ECDC4}

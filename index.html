@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minato Baiyun - Portfolio</title>
+    
+    <!-- CDN Resources -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    
+    <!-- Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 transition-colors duration-300 dark:bg-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 bgc-1">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold gradient-text">Minato Baiyun</h1>
+                <div class="flex items-center gap-4">
+                    <select id="languageSelect" class="bg-transparent border rounded p-1 ">
+                        <option value="zh">中文</option>
+                        <option value="en">English</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                    <button id="themeToggle" class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800">
+                        <i class="fas fa-moon dark:hidden"></i>
+                        <i class="fas fa-sun hidden dark:block"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-16 pb-12 bg-img-1 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1 animate__animated animate__fadeIn">
+                    <h2 class="text-4xl font-bold mb-4">
+                        <span id="typed-output" class="gradient-text"></span>
+                    </h2>
+                    <p class="text-gray-600 dark:text-gray-400 mb-6 text-lg">
+                        <span id="typed-output2" class=""></span>
+                    </p>
+
+                    <div class="flex gap-4">
+                        <a href="https://discordapp.com/users/632835000617926657" class="social-link discord">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="https://twitter.com/Captain_Baiyun" class="social-link twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/alicezuber" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:satenruiko316@gmail.com" class="social-link gmail">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Code Examples Section -->
+    <section class="py-12 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Hello, World!</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Code cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-12 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text" data-lang="title-1">Portfolio</h2>
+            <div class="swiper project-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <h3 class="text-xl font-bold mb-2 gradient-text1">測試中1</h3>
+                            <p class="text-gray-600 dark:text-gray-400">細節放置</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言ㄎ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <h3 class="text-xl font-bold mb-2 gradient-text1">測試中2</h3>
+                            <p class="text-gray-600 dark:text-gray-400">細節放置</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言ㄎ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <h3 class="text-xl font-bold mb-2 gradient-text1">測試中3</h3>
+                            <p class="text-gray-600 dark:text-gray-400">細節放置</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言ㄎ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-card">
+                            <h3 class="text-xl font-bold mb-2 gradient-text">測試中4</h3>
+                            <p class="text-gray-600 dark:text-gray-400">細節放置</p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言</span>
+                                <span class="tech-tag">使用語言ㄎ</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more project slides as needed -->
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Motto Section -->
+    <section class="py-12 bg-gray-50 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text" data-lang="title-2">My Motto</h2>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1">
+                    <img src="assets/img/Vikala.png" alt="Motto Image" class="rounded-lg shadow-lg">
+                </div>
+                <div class="flex-1">
+                    <div class="motto-text">
+                        <p class="text-lg mb-4 jp-text">どんな人でも手を繋げばもう友達さ！</p>
+                        <p class="text-lg mb-4">No matter who you are, if we shake hands You're already my friend!</p>
+                        <p class="text-lg">無論是什麼樣的人，只要牽起手來就是朋友！</p>
+                        <p class="text-sm text-gray-600 dark:text-gray-400 mt-4 gradient-text font-bold" data-lang="vikala">--- ビカラ(十二神将)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="gradient-text text-lg font-bold">Minato Baiyun</p>
+                    <p class="text-sm text-gray-400">© 2024 All rights reserved</p>
+                    <p class="gradient-text text-lg font-bold">Disclaimer</p>
+                    <p class="text-sm text-gray-400" data-lang="disclaimer">© 2024 All rights reserved</p>
+                </div>
+                <br>
+                <div class="flex gap-4">
+                    <a href="https://discordapp.com/users/632835000617926657" class="hover:text-blue-400 transition-colors">
+                        <i class="fab fa-discord text-2xl"></i>
+                    </a>
+                    <a href="https://twitter.com/Captain_Baiyun" class="hover:text-blue-400 transition-colors">
+                        <i class="fab fa-twitter text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/alicezuber" class="hover:text-blue-400 transition-colors">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="mailto:satenruiko316@gmail.com" class="hover:text-blue-400 transition-colors">
+                        <i class="fas fa-envelope text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
