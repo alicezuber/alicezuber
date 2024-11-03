@@ -1,30 +1,51 @@
 // Language configurations
 const translations = {
     zh: {
-        about: `我來自台灣。我是`,
+        typedStrings2: [
+                        "我是台灣人。我是程式開發者 ",
+                        "我是台灣人。我做過行銷企劃",
+                        "我是台灣人。我做過遊戲翻譯者",
+                        "我是台灣人。我也是同人文作者",
+                        "我是台灣人。我還是Cygames的遊戲愛好者"
+                        ],
+        about: `我是台灣人。我是`,
         typedStrings: ["你好!", "歡迎來到我的個人網站", "我是 Minato Baiyun"],
-        typedStrings2: ["我來自台灣。我是程式開發者 ", "我來自台灣。我是行銷企劃", "我來自台灣。我是遊戲翻譯者","我來自台灣。我是同人文作者"],
         disclaimer: "此個人資料中展示的遊戲圖片屬於其各自版權持有者。這些圖片僅用於個人非商業用途，以展示我的興趣和愛好。如果對這些圖片的使用有任何疑慮，請隨時與我聯繫，我會盡快處理相關問題。",
+        moreabout: "了解更多",
         title1:"作品集",
         title2:"My Motto",
         vikala:"--- 畢卡拉(十二神将)",
         // Add more translations as needed
     },
     en: {
+        typedStrings2: [
+                        "I am from Taiwan. I am a software developer.",
+                        "I am from Taiwan. I have worked as a marketing planner.",
+                        "I am from Taiwan. I have worked as a game translator.",
+                        "I am from Taiwan. I am also a doujin writer.",
+                        "I am from Taiwan. I am also a Cygames game enthusiast."
+                        ],
         about: "I am a student of Information Management from Taiwan.",
         typedStrings: ["Hello!", "Welcome to my personal website", "I'm Minato Baiyun"],
-        typedStrings2: ["I am from Taiwan. I am a program developer", "I am from Taiwan. I am a marketing planner", "I am from Taiwan. I am a game translator", "I am from Taiwan. I am a fanfiction author"] ,
         disclaimer: "The images used in this profile to showcase the games I play are the property of their respective copyright holders. These images are used solely for personal, non-commercial purposes to demonstrate my hobbies and interests. If there are any concerns regarding the use of these images, please feel free to contact me, and I will address the issue promptly.",
+        moreabout: "About me",
         title1:"Portfolio",
         title2:"My Motto",
         vikala:"--- Vikala(十二神将)",
         // Add more translations as needed
     },
     ja: {
+        typedStrings2: [
+                        "私は台湾人です。私はプログラム開発者です。",
+                        "私は台湾人です。私はマーケティングプランナーとして働いていました。",
+                        "私は台湾人です。私はゲーム翻訳者として働いていました。",
+                        "私は台湾人です。私は同人作家でもあります。",
+                        "私は台湾人です。私はCygamesのゲーム愛好者でもあります。"
+                        ],
         about: "情報管理を専攻している台湾出身の学生です。",
         typedStrings: ["こんにちは!", "私の個人サイトへようこそ", "Minato Baiyunです"],
-        typedStrings2: ["私は台湾出身です。私はプログラム開発者です。", "私は台湾出身です。私はマーケティングプランナーです。", "私は台湾出身です。私はゲーム翻訳者です。", "私は台湾出身です。私はファンフィクション作家"],
         disclaimer: "このプロフィールで使用されているゲーム画像は、それぞれの著作権者に帰属します。これらの画像は、私の趣味や興味を示すために、個人的かつ非商業的な目的でのみ使用されています。画像の使用に関して問題がある場合は、お気軽にご連絡ください。速やかに対応いたします。",
+        moreabout: "もっと詳しく知る",
         title1:"さくひんしゅう",
         title2:"My Motto",
         vikala:"--- ビカラ(十二神将)",
@@ -36,11 +57,11 @@ const translations = {
 const codeExamples = [
     {
         language: 'Python',
-        code: 'print("Hello, World!")\n\n\n\n\n'
+        code: 'print("Hello, World!")'
     },
     {
         language: 'JavaScript',
-        code: 'console.log("Hello, World!");\n\n\n\n\n'
+        code: 'console.log("Hello, World!");'
     },
     {
         language: 'Java',
@@ -184,18 +205,103 @@ const initSwiper = () => {
 };
 
 // Generate code example cards
+// Generate code example cards
 const generateCodeCards = () => {
+    // 獲取或創建容器
     const container = document.querySelector('.grid');
+    container.className = 'code-section';
+
+    // 創建卡片網格容器
+    const gridContainer = document.createElement('div');
+    gridContainer.className = 'code-grid';
+    
+    // 創建預覽容器
+    const previewContainer = document.createElement('div');
+    previewContainer.className = 'code-preview-container';
+    previewContainer.innerHTML = `
+        <div class="preview-empty-state">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Hello, World!</h2>
+            
+        </div>
+    `;
+
+    // 添加卡片
     codeExamples.forEach(example => {
+        // 創建卡片
         const card = document.createElement('div');
         card.className = 'code-card';
         card.innerHTML = `
-            <h3 class="text-xl font-bold mb-2 gradient-text1">${example.language}</h3>
+            <h3 class="text-xl font-bold gradient-text1">${example.language}</h3>
+            <div class="text-center mt-2">
+                <i class="fas fa-code text-2xl"></i>
+            </div>
+        `;
+
+        // 創建對應的預覽內容
+        const previewContent = document.createElement('div');
+        previewContent.className = 'code-preview-content';
+        previewContent.id = `preview-${example.language.toLowerCase()}`;
+        previewContent.innerHTML = `
             <pre><code class="language-${example.language.toLowerCase()}">${example.code}</code></pre>
         `;
-        container.appendChild(card);
+        previewContainer.appendChild(previewContent);
+
+        // 添加hover事件
+        card.addEventListener('mouseenter', () => {
+            // 隱藏空白狀態
+            const emptyState = previewContainer.querySelector('.preview-empty-state');
+            if (emptyState) emptyState.style.display = 'none';
+
+            // 移除其他卡片的active狀態
+            document.querySelectorAll('.code-card').forEach(c => c.classList.remove('active'));
+            // 添加當前卡片的active狀態
+            card.classList.add('active');
+
+            // 隱藏所有預覽內容
+            document.querySelectorAll('.code-preview-content').forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // 顯示對應的預覽內容
+            const preview = document.getElementById(`preview-${example.language.toLowerCase()}`);
+            preview.classList.add('active');
+        });
+
+        // 將卡片添加到網格容器
+        gridContainer.appendChild(card);
     });
+
+    // 處理鼠標離開整個網格區域的情況
+    gridContainer.addEventListener('mouseleave', () => {
+        // 移除所有卡片的active狀態
+        document.querySelectorAll('.code-card').classList.remove('active');
+        
+        // 隱藏所有預覽內容
+        document.querySelectorAll('.code-preview-content').forEach(content => {
+            content.classList.remove('active');
+        });
+
+        // 顯示空白狀態
+        const emptyState = previewContainer.querySelector('.preview-empty-state');
+        if (emptyState) emptyState.style.display = 'block';
+    });
+
+    // 將網格容器和預覽容器添加到主容器
+    container.appendChild(gridContainer);
+    container.appendChild(previewContainer);
+
+    // 初始化代碼高亮（如果使用 Prism.js 或類似庫）
+    if (typeof Prism !== 'undefined') {
+        Prism.highlightAll();
+    }
 };
+
+
+
+
+
+
+
 
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
@@ -221,3 +327,4 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', animateOnScroll);
     animateOnScroll(); // Initial check
 });
+

@@ -2,10 +2,14 @@
 :root {
     --gradient-text: linear-gradient(45deg, #FF6B6B, #4ECDC4);
 }
+hover-gradient-text:hover {
+    --gradient-text: linear-gradient(45deg,#4ECDC4, #FF6B6B);
 
+}
 body {
     font-family: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', sans-serif;
 }
+
 
 /* Gradient Text */
 .gradient-text {
@@ -22,9 +26,7 @@ body {
     color: transparent;
     display: inline-block;
 }
-dark .gradient-text1{
-    color: white;
-}
+
 
 /* Social Links */
 .social-link {
@@ -81,15 +83,12 @@ dark .gradient-text1{
 .project-card {
     background: white;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 20px 0 50px 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
-dark .project-card {
-    background: #cfcfcf;
-    color: white;
-}
+
 
 .project-card:hover {
     transform: translateY(-5px);
@@ -103,38 +102,94 @@ dark .project-card {
     background: #f3f4f6;
     color: #374151;
     font-size: 0.875rem;
-    margin: 0.25rem;
+    margin: 20px 20px 0 0 ;
+}
+/* Code Cards */
+/* Code Cards Container */
+.code-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    width: 100%;
 }
 
-dark .tech-tag {
-    background: #cfcfcf;
-    color: #f3f4f6;
+/* Grid layout for code cards */
+.code-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1rem;
 }
 
 /* Code Cards */
 .code-card {
     background: white;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-dark .code-card {
-    background: #cfcfcf;
-    color: white;
+.code-card:hover {
+    transform: translateY(-5px);
 }
 
-.code-card pre {
-    margin: 1rem 0;
+.code-card h3 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* Fixed Preview Section */
+.code-preview-container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    min-height: 100px; /* 最小高度 */
+}
+
+.code-preview-content {
+    padding: 1.5rem;
+    display: none; /* 預設隱藏所有預覽內容 */
+}
+
+.code-preview-content.active {
+    display: block; /* 顯示激活的預覽內容 */
+}
+
+.code-preview-content pre {
+    margin: 0;
     padding: 1rem;
     border-radius: 0.5rem;
     background: #f8f9fa;
     overflow-x: auto;
 }
 
-dark .code-card pre {
-    background: #999999;
-    color: white;
+
+
+/* Empty state */
+.preview-empty-state {
+    padding: 2rem;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+
+/* Active card state */
+.code-card.active {
+    --gradient-text: linear-gradient(45deg,#4ECDC4,#FF6B6B);
+    border: 2px solid #4ECDC4;
 }
 
 /* Disclaimer Cards */
@@ -143,11 +198,6 @@ dark .code-card pre {
     border-radius: 1rem;
     padding: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-dark .disclaimer-card {
-    background: #cfcfcf;
-    color: white;
 }
 
 /* Swiper Customization */
@@ -159,6 +209,11 @@ dark .disclaimer-card {
 .swiper-pagination-bullet-active {
     background: #4ECDC4}
 
+.mb-w {
+    text-align: center !important;
+    align-items: center!important;
+}
+
 @media screen and (max-width: 768px) {
     .bg-img-1 {
             background-image: url("../img/koton.jpg");
@@ -168,3 +223,163 @@ dark .disclaimer-card {
     }
     
 }
+
+/* Base Styles */
+:root {
+    --gradient-text: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+}
+
+.dark body {
+    --gradient-text: linear-gradient(45deg, #6EEAE1, #FF8F8F);
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+}
+
+hover-gradient-text:hover {
+    --gradient-text: linear-gradient(45deg,#4ECDC4, #FF6B6B);
+}
+
+body {
+    font-family: 'Poppins', 'Noto Sans TC', 'Noto Sans JP', sans-serif;
+}
+.dark .bg-img-1 {
+    background-image: url("../img/ena.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+}
+/* Gradient Text */
+.gradient-text {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.gradient-text1 {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+/* Social Links - Dark Mode Adjustments */
+.dark .social-link.github {
+    background: #2d2d2d;
+    color: #ffffff;
+}
+
+/* Project Cards - Dark Mode */
+.project-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 20px 0 50px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dark .project-card {
+    background: #2d2d2d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Tech Tags - Dark Mode */
+.tech-tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 0.875rem;
+    margin: 20px 20px 0 0;
+}
+
+.dark .tech-tag {
+    background: #404040;
+    color: #e5e5e5;
+}
+
+/* Code Cards - Dark Mode */
+.code-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark .code-card {
+    background: #2d2d2d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Fixed Preview Section - Dark Mode */
+.code-preview-container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    min-height: 100px;
+}
+
+.dark .code-preview-container {
+    background: #2d2d2d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dark .code-preview-content pre {
+    background: #1a1a1a;
+    color: #e5e5e5;
+}
+
+/* Empty state - Dark Mode */
+.dark .preview-empty-state {
+    color: #999;
+}
+
+/* Active card state - Dark Mode */
+.dark .code-card.active {
+    border-color: #6EEAE1;
+}
+
+/* Disclaimer Cards - Dark Mode */
+.disclaimer-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dark .disclaimer-card {
+    background: #2d2d2d;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Swiper Customization - Dark Mode */
+.dark .swiper-button-next,
+.dark .swiper-button-prev {
+    color: #6EEAE1 !important;
+}
+
+.dark .swiper-pagination-bullet-active {
+    background: #6EEAE1;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-img-1 {
+        background-image: url("../img/koton.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+
+
