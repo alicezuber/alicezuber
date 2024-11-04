@@ -372,14 +372,16 @@ body {
     background: #6EEAE1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .bg-img-1 {
-        background-image: url("../img/koton.jpg");
+        background-image: url("../img/phone.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
+    .ph-1{
+        background-color: rgba(255, 255, 255,0.3);
+    }
 }
-
 
 

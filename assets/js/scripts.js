@@ -78,7 +78,31 @@ const codeExamples = [
     {
         language: 'C',
         code: '#include <stdio.h>\n\nint main() {\n    printf("Hello World\n");\n    return 0;\n}'
-    }
+    },
+    // {
+    //     language: 'Python',
+    //     code: 'print("Hello, World!")'
+    // },
+    // {
+    //     language: 'JavaScript',
+    //     code: 'console.log("Hello, World!");'
+    // },
+    // {
+    //     language: 'Java',
+    //     code: 'public class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println("Hello, World!");\n    }\n}'
+    // },
+    // {
+    //     language: 'C#',
+    //     code: 'using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine("Hello World");\n    }'
+    // },
+    // {
+    //     language: 'C++',
+    //     code: '#include <iostream>\n\nint main() {\n    std::cout << "Hello World" << std::endl;\n    return 0;\n}'
+    // },
+    // {
+    //     language: 'C',
+    //     code: '#include <stdio.h>\n\nint main() {\n    printf("Hello World\n");\n    return 0;\n}'
+    // }
 ];
 
 // 主題切換功能
@@ -220,8 +244,8 @@ const generateCodeCards = () => {
     previewContainer.className = 'code-preview-container';
     previewContainer.innerHTML = `
         <div class="preview-empty-state">
-            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Hello, World!</h2>
-            
+            <h1 class="text-9xl font-boldtext-center gradient-text">Hello, World! &nbsp</h1>
+
         </div>
     `;
 
