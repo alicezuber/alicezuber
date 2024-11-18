@@ -48,6 +48,8 @@
             <div class="flex justify-between items-center">
                 <h1 class="text-2xl font-bold gradient-text">Minato Baiyun</h1>
                 <div class="flex items-center gap-4">
+                    <!-- Skills Page Link in Navbar -->
+                    <!-- <a href="skill.html" class="hover:text-indigo-500 transition-colors text-gray-800 dark:text-gray-200">技能</a> -->
                     <select id="languageSelect" class="bg-transparent border rounded p-1 ">
                         <option value="zh">中文</option>
                         <option value="en">English</option>
@@ -77,17 +79,20 @@
 
 
                     <div class="flex gap-4">
-                        <a href="https://discordapp.com/users/632835000617926657" class="social-link discord animate__animated animate__rotateIn ">
-                            <i class="fab fa-discord"></i>
+                        <a target="_blank" href="https://discordapp.com/users/632835000617926657 " class="social-link discord animate__animated animate__rotateIn ">
+                            <i class="fa-brands fa-discord"></i>
                         </a>
-                        <a href="https://twitter.com/Captain_Baiyun" class="social-link twitter animate__animated animate__rotateIn animate__delay-1s">
-                            <i class="fab fa-twitter"></i>
+                        <a target="_blank" href="https://twitter.com/Captain_Baiyun" class="social-link twitter animate__animated animate__rotateIn animate__delay-1s">
+                            <i class="fa-brands fa-twitter"></i>
                         </a>
-                        <a href="https://github.com/alicezuber" class="social-link github animate__animated animate__rotateIn animate__delay-2s">
-                            <i class="fab fa-github"></i>
+                        <a target="_blank" href="https://github.com/alicezuber" class="social-link github animate__animated animate__rotateIn animate__delay-2s">
+                            <i class="fa-brands fa-github"></i>
                         </a>
+                        <!-- <a target="_blank" href="https://www.pixiv.net/users/74288832" class="social-link animate__animated animate__rotateIn animate__delay-3s">
+                            <i class="fa-brands fa-pixiv"></i>
+                        </a> -->
                         <a href="mailto:satenruiko316@gmail.com" class="social-link gmail animate__animated animate__rotateIn animate__delay-3s">
-                            <i class="fas fa-envelope"></i>
+                            <i class="fa-solid fa-envelope"></i>
                         </a>
                     </div>
                 </div>
@@ -96,12 +101,136 @@
         </div>
     </section>
 
-    <!-- Code Examples Section -->
+
+
+    <!-- 技術類技能 -->
     <section class="py-12">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Hello, World!</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
-                <!-- Code cards will be dynamically inserted here -->
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">程式語言與工具</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <h3>C</h3>
+                    <p>基礎，但不常寫</p>
+                    <div class="progress-bar"><span style="width: 65%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>C++</h3>
+                    <p>基礎，但不常寫</p>
+                    <div class="progress-bar"><span style="width: 60%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>C#  (學習中)</h3>
+                    <p>為了unity學習</p>
+                    <div class="progress-bar"><span style="width: 40%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>HTML / CSS</h3>
+                    <p>本頁面，就算作品吧?</p>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>PHP</h3>
+                    <p>建立過後台管理系統</p>
+                    <div class="progress-bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>多項程式皆使用此撰寫</p>
+                    <div class="progress-bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>本頁面，就算作品吧?</p>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Visual Studio Code</h3>
+                    <p>一般習慣使用vscode來寫程式</p>
+                    <div class="progress-bar"><span style="width: 90%;"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 設計類技能 -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">設計與視覺工具</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <h3>Adobe After Effects</h3>
+                    <p>曾經做過一隻幹片(作業)是我和同學拿光劍(雨傘)互打</p>
+                    <div class="progress-bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Adobe Photoshop</h3>
+                    <p>某次參加活動，學會使用基礎，進階程度不高</p>
+                    <div class="progress-bar"><span style="width: 60%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Adobe Premiere</h3>
+                    <p>為了Ae學習的，不是很熟練</p>
+                    <div class="progress-bar"><span style="width: 65%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>DaVinci Resolve</h3>
+                    <p>因為有免費版，當初就有認真學過</p>
+                    <div class="progress-bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Audacity</h3>
+                    <p>偶爾修修朋友的音檔</p>
+                    <div class="progress-bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Live2D Cubism（學習中）</h3>
+                    <p>也想建模</p>
+                    <div class="progress-bar"><span style="width: 20%;"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 語言與創作 -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">語言能力與創作</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <h3>日文</h3>
+                    <p>聽讀略懂，寫作與口語無法</p>
+                    <div class="progress-bar"><span style="width: 40%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>英文</h3>
+                    <p>聽讀可以，寫作與口語略懂</p>
+                    <div class="progress-bar"><span style="width: 60%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>中文</h3>
+                    <p>聽讀、寫作與口語皆精通</p>
+                    <div class="progress-bar"><span style="width: 95%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>同人文創作</h3>
+                    <p>目前沒有公開</p>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>一般創作</h3>
+                    <p>都是寫給朋友的，有規劃寫公開的</p>
+                    <div class="progress-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>遊戲翻譯與模組開發</h3>
+                    <p>比較常翻譯麥塊</p>
+                    <div class="progress-bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>行銷與文案撰寫</h3>
+                    <p>略懂</p>
+                    <div class="progress-bar"><span style="width: 55%;"></span></div>
+                </div>
             </div>
         </div>
     </section>
@@ -165,6 +294,16 @@
         </div>
     </section>
 
+    <!-- Code Examples Section -->
+    <section class="py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center gradient-text">Hello, World!</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4">
+                <!-- Code cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
     <!-- Motto Section -->
     <section class="py-12">
         <div class="container mx-auto px-4">
@@ -184,8 +323,6 @@
             </div>
         </div>
     </section>
-
-
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-8 mb-w">

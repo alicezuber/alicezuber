@@ -352,3 +352,21 @@ document.addEventListener('DOMContentLoaded', () => {
     animateOnScroll(); // Initial check
 });
 
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const triggers = document.querySelectorAll('.tab-trigger');
+    const contents = document.querySelectorAll('.tab-content');
+  
+    triggers.forEach(trigger => {
+      trigger.addEventListener('click', () => {
+        // 移除所有的 active 樣式
+        triggers.forEach(btn => btn.classList.remove('active'));
+        contents.forEach(content => content.classList.remove('active'));
+  
+        // 啟用當前的 tab
+        trigger.classList.add('active');
+        document.getElementById(trigger.dataset.tab).classList.add('active');
+      });
+    });
+  });
+  
