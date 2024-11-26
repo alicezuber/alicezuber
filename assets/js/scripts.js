@@ -73,11 +73,11 @@ const codeExamples = [
     },
     {
         language: 'C++',
-        code: '#include <iostream>\n\nint main() {\n    std::cout << "Hello World" << std::endl;\n    return 0;\n}'
+        code: '#include &lt;iostream&gt;\n\nint main() {\n    std::cout << "Hello World" << std::endl;\n    return 0;\n}'
     },
     {
         language: 'C',
-        code: '#include <stdio.h>\n\nint main() {\n    printf("Hello World\n");\n    return 0;\n}'
+        code: '#include &lt;stdio.h&gt;\n\nint main() {\n    printf("Hello World\n");\n    return 0;\n}'
     },
     // {
     //     language: 'Python',
