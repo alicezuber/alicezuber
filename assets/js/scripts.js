@@ -15,6 +15,58 @@ const translations = {
         title1:"作品集",
         title2:"My Motto",
         vikala:"--- 畢卡拉(十二神将)",
+        skillsTitle: "語言能力與創作",
+        programmingTitle: "程式語言與工具",
+        designTitle: "設計與視覺工具",
+        skills: {
+            japanese: ["日文", "聽讀略懂，寫作與口語無法"],
+            english: ["英文", "聽讀可以，寫作與口語略懂"],
+            chinese: ["中文", "聽讀、寫作與口語皆精通"],
+            doujin: ["同人文創作", "目前沒有公開"],
+            general: ["一般創作", "都是寫給朋友的，有規劃寫公開的"],
+            gameTranslation: ["遊戲翻譯與模組開發", "比較常翻譯麥塊"],
+            marketing: ["行銷與文案撰寫", "略懂"]
+        },
+        programming: {
+            c: ["C", "基礎，但不常寫"],
+            cpp: ["C++", "基礎，但不常寫"],
+            csharp: ["C#  (學習中)", "為了unity學習"],
+            htmlcss: ["HTML / CSS", "本頁面，就算作品吧?"],
+            php: ["PHP", "建立過後台管理系統"],
+            python: ["Python", "多項程式皆使用此撰寫"],
+            javascript: ["JavaScript", "本頁面，就算作品吧?"],
+            vscode: ["Visual Studio Code", "一般習慣使用vscode來寫程式"]
+        },
+        design: {
+            aftereffects: ["Adobe After Effects", "曾經做過一隻幹片(作業)是我和同學拿光劍(雨傘)互打"],
+            photoshop: ["Adobe Photoshop", "某次參加活動，學會使用基礎，進階程度不高"],
+            premiere: ["Adobe Premiere", "為了Ae學習的，不是很熟練"],
+            davinci: ["DaVinci Resolve", "因為有免費版，當初就有認真學過"],
+            audacity: ["Audacity", "偶爾修修朋友的音檔"],
+            live2d: ["Live2D Cubism（學習中）", "也想建模"]
+        },
+        portfolio: {
+            project1: {
+                title: "測試中1",
+                description: "細節放置",
+                tech: ["使用語言", "使用語言", "使用語言"]
+            },
+            project2: {
+                title: "測試中2",
+                description: "細節放置",
+                tech: ["使用語言", "使用語言", "使用語言"]
+            },
+            project3: {
+                title: "測試中3",
+                description: "細節放置",
+                tech: ["使用語言", "使用語言", "使用語言"]
+            },
+            project4: {
+                title: "測試中4",
+                description: "細節放置",
+                tech: ["使用語言", "使用語言", "使用語言"]
+            }
+        },
         // Add more translations as needed
     },
     en: {
@@ -32,6 +84,58 @@ const translations = {
         title1:"Portfolio",
         title2:"My Motto",
         vikala:"--- Vikala(十二神将)",
+        skillsTitle: "Language Skills & Creative Works",
+        programmingTitle: "Programming Languages & Tools",
+        designTitle: "Design & Visual Tools",
+        skills: {
+            japanese: ["Japanese", "Can read and listen, limited writing and speaking"],
+            english: ["English", "Good at reading and listening, basic writing and speaking"],
+            chinese: ["Chinese", "Native proficiency in all aspects"],
+            doujin: ["Doujin Writing", "Currently not public"],
+            general: ["General Writing", "Written for friends, planning public works"],
+            gameTranslation: ["Game Translation & Mod Dev", "Mainly Minecraft translations"],
+            marketing: ["Marketing & Copywriting", "Basic knowledge"]
+        },
+        programming: {
+            c: ["C", "Basic knowledge, rarely used"],
+            cpp: ["C++", "Basic knowledge, rarely used"],
+            csharp: ["C# (Learning)", "Learning for Unity"],
+            htmlcss: ["HTML / CSS", "This website is one of my works"],
+            php: ["PHP", "Built backend management systems"],
+            python: ["Python", "Used in multiple projects"],
+            javascript: ["JavaScript", "This website is one of my works"],
+            vscode: ["Visual Studio Code", "My preferred IDE for coding"]
+        },
+        design: {
+            aftereffects: ["Adobe After Effects", "Made a lightsaber (umbrella) fight video with classmates"],
+            photoshop: ["Adobe Photoshop", "Learned basics from an event, intermediate level"],
+            premiere: ["Adobe Premiere", "Learned for AE, not very proficient"],
+            davinci: ["DaVinci Resolve", "Studied seriously due to free version"],
+            audacity: ["Audacity", "Occasionally edit friends' audio files"],
+            live2d: ["Live2D Cubism (Learning)", "Interested in modeling"]
+        },
+        portfolio: {
+            project1: {
+                title: "Project 1",
+                description: "Details to be added",
+                tech: ["Language", "Language", "Language"]
+            },
+            project2: {
+                title: "Project 2",
+                description: "Details to be added",
+                tech: ["Language", "Language", "Language"]
+            },
+            project3: {
+                title: "Project 3",
+                description: "Details to be added",
+                tech: ["Language", "Language", "Language"]
+            },
+            project4: {
+                title: "Project 4",
+                description: "Details to be added",
+                tech: ["Language", "Language", "Language"]
+            }
+        },
         // Add more translations as needed
     },
     ja: {
@@ -49,6 +153,58 @@ const translations = {
         title1:"さくひんしゅう",
         title2:"My Motto",
         vikala:"--- ビカラ(十二神将)",
+        skillsTitle: "言語能力と創作活動",
+        programmingTitle: "プログラミング言語とツール",
+        designTitle: "デザインとビジュアルツール",
+        skills: {
+            japanese: ["日本語", "読み書きは少し、会話は限定的"],
+            english: ["英語", "読み書きは可能、会話は基本的"],
+            chinese: ["中国語", "ネイティブレベル"],
+            doujin: ["同人創作", "現在非公開"],
+            general: ["一般創作", "友人向けの作品、公開作品を計画中"],
+            gameTranslation: ["ゲーム翻訳とMod開発", "主にマインクラフトの翻訳"],
+            marketing: ["マーケティングとコピーライティング", "基礎知識あり"]
+        },
+        programming: {
+            c: ["C", "基礎知識あり、あまり使用しない"],
+            cpp: ["C++", "基礎知識あり、あまり使用しない"],
+            csharp: ["C# (学習中)", "Unity用に学習中"],
+            htmlcss: ["HTML / CSS", "このウェブサイトが作品です"],
+            php: ["PHP", "バックエンド管理システムの開発経験あり"],
+            python: ["Python", "複数のプロジェクトで使用"],
+            javascript: ["JavaScript", "このウェブサイトが作品です"],
+            vscode: ["Visual Studio Code", "普段使用しているIDE"]
+        },
+        design: {
+            aftereffects: ["Adobe After Effects", "クラスメートとライトセーバー(傘)バトルの動画を作成"],
+            photoshop: ["Adobe Photoshop", "イベントで基礎を学習、中級レベル"],
+            premiere: ["Adobe Premiere", "AE用に学習、まだ習熟度は低い"],
+            davinci: ["DaVinci Resolve", "無料版があるため、真剣に学習"],
+            audacity: ["Audacity", "友人の音声ファイルを時々編集"],
+            live2d: ["Live2D Cubism (学習中)", "モデリングに興味あり"]
+        },
+        portfolio: {
+            project1: {
+                title: "プロジェクト1",
+                description: "詳細準備中",
+                tech: ["使用言語", "使用言語", "使用言語"]
+            },
+            project2: {
+                title: "プロジェクト2",
+                description: "詳細準備中",
+                tech: ["使用言語", "使用言語", "使用言語"]
+            },
+            project3: {
+                title: "プロジェクト3",
+                description: "詳細準備中",
+                tech: ["使用言語", "使用言語", "使用言語"]
+            },
+            project4: {
+                title: "プロジェクト4",
+                description: "詳細準備中",
+                tech: ["使用言語", "使用言語", "使用言語"]
+            }
+        },
         // Add more translations as needed
     }
 };
@@ -165,6 +321,53 @@ const updateContent = (lang) => {
             element.textContent = translations[lang][key];
         }
     });
+    
+    // Update skills section
+    document.querySelector('[data-i18n="skillsTitle"]').textContent = translations[lang].skillsTitle;
+    document.querySelector('[data-i18n="programmingTitle"]').textContent = translations[lang].programmingTitle;
+    document.querySelector('[data-i18n="designTitle"]').textContent = translations[lang].designTitle;
+    
+    // Update all skill cards
+    document.querySelectorAll('[data-i18n-skill]').forEach(element => {
+        const skillKey = element.getAttribute('data-i18n-skill');
+        element.textContent = translations[lang].skills[skillKey][0];
+    });
+    
+    document.querySelectorAll('[data-i18n-skill-desc]').forEach(element => {
+        const skillKey = element.getAttribute('data-i18n-skill-desc');
+        element.textContent = translations[lang].skills[skillKey][1];
+    });
+
+    document.querySelectorAll('[data-i18n-programming]').forEach(element => {
+        const programmingKey = element.getAttribute('data-i18n-programming');
+        element.textContent = translations[lang].programming[programmingKey][0];
+    });
+
+    document.querySelectorAll('[data-i18n-programming-desc]').forEach(element => {
+        const programmingKey = element.getAttribute('data-i18n-programming-desc');
+        element.textContent = translations[lang].programming[programmingKey][1];
+    });
+
+    document.querySelectorAll('[data-i18n-design]').forEach(element => {
+        const designKey = element.getAttribute('data-i18n-design');
+        element.textContent = translations[lang].design[designKey][0];
+    });
+
+    document.querySelectorAll('[data-i18n-design-desc]').forEach(element => {
+        const designKey = element.getAttribute('data-i18n-design-desc');
+        element.textContent = translations[lang].design[designKey][1];
+    });
+
+    // Update portfolio content
+    document.querySelectorAll('.swiper-slide').forEach(slide => {
+        const projectKey = slide.getAttribute('data-project');
+        const project = translations[lang].portfolio[projectKey];
+        if (project) {
+            slide.querySelector('[data-i18n-portfolio="title"]').textContent = project.title;
+            slide.querySelector('[data-i18n-portfolio="description"]').textContent = project.description;
+            slide.querySelectorAll('.tech-tag').forEach((tag, i) => tag.textContent = project.tech[i]);
+        }
+    });
 };
 
 // Initialize Typed.js
@@ -274,7 +477,7 @@ const generateCodeCards = () => {
         card.addEventListener('mouseenter', () => {
             // 隱藏空白狀態
             const emptyState = previewContainer.querySelector('.preview-empty-state');
-            if (emptyState) emptyState.style.display = 'none';
+            if (emptyState) emptyState.style.display = 'none'
 
             // 移除其他卡片的active狀態
             document.querySelectorAll('.code-card').forEach(c => c.classList.remove('active'));
