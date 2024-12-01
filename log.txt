@@ -1,0 +1,816 @@
+Message logging is now once again on.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Message_Patch1 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.ResetMessageCount_Patch1 ()
+Verse.Log:Clear ()
+LudeonTK.EditWindow_Log/<>c:<DoWindowContents>b__33_0 ()
+LudeonTK.EditWindow:DoRowButton (single&,single,string,string,System.Action)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:LudeonTK.EditWindow_Log.DoWindowContents_Patch0 (LudeonTK.EditWindow_Log,UnityEngine.Rect)
+Verse.Window:InnerWindowOnGUI (int)
+UnityEngine.GUI:CallWindowDelegate (UnityEngine.GUI/WindowFunction,int,int,UnityEngine.GUISkin,int,single,single,UnityEngine.GUIStyle)
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96]
+ at Verse.PawnRenderer.LayingFacing () [0x001b9] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+     - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:PostureTranspiler(IEnumerable`1 instructions)
+     - POSTFIX com.yayo.yayoAni: Void YayoAnimation.HarmonyPatches.PawnPatches.LayingFacingPatch:Postfix(PawnRenderer __instance, Rot4& __result, Pawn ___pawn)
+     - POSTFIX rimworld.Nals.RollOver: Void RollOver.HarmonyPatches:Postfix(Pawn ___pawn, Rot4& __result)
+ at YayoAnimation.HarmonyPatches.PawnPatches.ParallelGetPreRenderResultsPatch.Prefix (Verse.PawnRenderer __instance, Verse.Pawn ___pawn, UnityEngine.Vector3& drawLoc, System.Nullable`1[Verse.Rot4]& rotOverride) [0x00027] in <f08defa7186c4d6fa4f67d0f6ba4315b>:0 
+ at Verse.PawnRenderer.ParallelGetPreRenderResults (UnityEngine.Vector3 drawLoc, System.Nullable`1[T] rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache) [0x0002b] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+     - TRANSPILER com.yayo.yayoAni: IEnumerable`1 YayoAnimation.HarmonyPatches.PawnPatches.ParallelGetPreRenderResultsPatch:Transpiler(IEnumerable`1 instructions)
+     - TRANSPILER rimworld.erdelf.alien_race.main: IEnumerable`1 AlienRace.HarmonyPatches:PostureTranspiler(IEnumerable`1 instructions)
+     - PREFIX com.yayo.yayoAni: Void YayoAnimation.HarmonyPatches.PawnPatches.ParallelGetPreRenderResultsPatch:Prefix(PawnRenderer __instance, Pawn ___pawn, Vector3& drawLoc, Nullable`1& rotOverride)
+     - PREFIX OskarPotocki.VFECore: Void VFECore.ParallelGetPreRenderResults_Patch:Prefix(PawnRenderer __instance, Vector3& drawLoc, Rot4 rotOverride, Boolean neverAimWeapon, Boolean& disableCache, Pawn ___pawn)
+     - PREFIX rimworld.Nals.FacialAnimation: Boolean FacialAnimation.HarmonyPatches:PrefixParallelGetPreRenderResults(Pawn ___pawn, Boolean& disableCache)
+ at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Glue:AbiFixup<Verse.PawnRenderer+PreRenderResults Verse.PawnRenderer:ParallelGetPreRenderResults(UnityEngine.Vector3, System.Nullable`1[[Verse.Rot4, Assembly-CSharp, Version=1.5.9048.28434, Culture=neutral, PublicKeyToken=null]], System.Boolean, System.Boolean),Verse.PawnRenderer+PreRenderResults Verse.PawnRenderer.ParallelGetPreRenderResults_Patch3(Verse.PawnRenderer, UnityEngine.Vector3, System.Nullable`1[[Verse.Rot4, Assembly-CSharp, Version=1.5.9048.28434, Culture=neutral, PublicKeyToken=null]], System.Boolean, System.Boolean)>(Verse.PawnRenderer,Verse.PawnRenderer/PreRenderResults&,UnityEngine.Vector3,System.Nullable`1<Verse.Rot4>,bool,bool)
+ at Verse.PawnRenderer.ParallelPreRenderPawnAt (UnityEngine.Vector3 drawLoc, System.Nullable`1[T] rotOverride, System.Boolean neverAimWeapon) [0x00027] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+     - PREFIX co.uk.epicguru.meleeanimation: Void AM.Patches.Patch_PawnRenderer_ParallelPreRenderPawnAt:Prefix(PawnRenderer __instance, Vector3& drawLoc, Nullable`1& rotOverride)
+ at Verse.PawnRenderer.RenderPawnAt (UnityEngine.Vector3 drawLoc, System.Nullable`1[T] rotOverride, System.Boolean neverAimWeapon) [0x00067] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+     - PREFIX net.pardeike.rimworld.mod.camera+: Boolean CameraPlus.DotTools+PawnRenderer_RenderPawnAt_Patch:Prefix(Pawn ___pawn)
+     - PREFIX co.uk.epicguru.meleeanimation: Boolean AM.Patches.Patch_PawnRenderer_RenderPawnAt:Prefix(Pawn ___pawn, PawnRenderTree ___renderTree, PreRenderResults& ___results, Nullable`1& __state)
+     - POSTFIX co.uk.epicguru.meleeanimation: Void AM.Patches.Patch_PawnRenderer_RenderPawnAt:Postfix(Nullable`1 __state, PreRenderResults& ___results)
+ at Verse.PawnRenderer.DynamicDrawPhaseAt (Verse.DrawPhase phase, UnityEngine.Vector3 drawLoc, System.Nullable`1[T] rotOverride, System.Boolean neverAimWeapon) [0x0001d] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+ at Verse.Pawn.DynamicDrawPhaseAt (Verse.DrawPhase phase, UnityEngine.Vector3 drawLoc, System.Boolean flip) [0x0000f] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+ at Verse.Corpse.DynamicDrawPhaseAt (Verse.DrawPhase phase, UnityEngine.Vector3 drawLoc, System.Boolean flip) [0x0001d] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+ at RimWorld.Building_GibbetCage.DynamicDrawPhaseAt (Verse.DrawPhase phase, UnityEngine.Vector3 drawLoc, System.Boolean flip) [0x00059] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+ at Verse.Thing.DynamicDrawPhase (Verse.DrawPhase phase) [0x00017] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+ at Verse.DynamicDrawManager.DrawDynamicThings () [0x0011a] in <2a40c3593b334f29ac3cb3d32d652351>:0 
+     - POSTFIX net.pardeike.rimworld.mod.camera+: Void CameraPlus.DynamicDrawManager_DrawDynamicThings_Patch:Postfix()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71243: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71243: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71243: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71243: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71243: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71250: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71235: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Exception drawing GibbetCage71240: System.TypeInitializationException: The type initializer for 'RollOver.HarmonyPatches' threw an exception. ---> System.Exception: Parameter "angle" not found in method System.Void Verse.PawnRenderer::RenderPawnInternal(Verse.PawnDrawParms parms)
+[Ref 23541C0] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref B498AD96] Duplicate stacktrace, see ref for original
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Log.Error_Patch7 (string)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.DynamicDrawManager.DrawDynamicThings_Patch1 (Verse.DynamicDrawManager)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Map.MapUpdate_Patch3 (Verse.Map)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition:Verse.Game.UpdatePlay_Patch4 (Verse.Game)
+Verse.Root_Play:Update ()

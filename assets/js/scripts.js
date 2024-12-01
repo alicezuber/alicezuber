@@ -67,6 +67,13 @@ const translations = {
                 tech: ["使用語言", "使用語言", "使用語言"]
             }
         },
+        updatesTitle: "近況",
+        updates: {
+            currentStatus: ["目前狀態", "正在積極尋找前端開發工作機會，同時持續學習新技術。"],
+            learning: ["學習進度", "最近在研究 React 和 TypeScript，並製作個人作品集網站。"],
+            futurePlan: ["未來計畫", "計劃接觸更多全端開發技術，並參與開源專案貢獻。"],
+            teamBuilding: ["團隊招募", "正在組建開發團隊，目前需要一位美術夥伴加入。有興趣的朋友歡迎聯繫！"]
+        },
         // Add more translations as needed
     },
     en: {
@@ -136,6 +143,13 @@ const translations = {
                 tech: ["Language", "Language", "Language"]
             }
         },
+        updatesTitle: "Recent Updates",
+        updates: {
+            currentStatus: ["Current Status", "Actively seeking frontend development opportunities while continuing to learn new technologies."],
+            learning: ["Learning Progress", "Currently studying React and TypeScript, while building a personal portfolio website."],
+            futurePlan: ["Future Plans", "Planning to explore more full-stack development technologies and contribute to open source projects."],
+            teamBuilding: ["Team Recruitment", "Building a development team and currently looking for an artist to join. If interested, please get in touch!"]
+        },
         // Add more translations as needed
     },
     ja: {
@@ -181,7 +195,7 @@ const translations = {
             premiere: ["Adobe Premiere", "AE用に学習、まだ習熟度は低い"],
             davinci: ["DaVinci Resolve", "無料版があるため、真剣に学習"],
             audacity: ["Audacity", "友人の音声ファイルを時々編集"],
-            live2d: ["Live2D Cubism (学習中)", "モデリングに興味あり"]
+            live2d: ["Live2D Cubism（学習中）", "モデリングに興味あり"]
         },
         portfolio: {
             project1: {
@@ -204,6 +218,13 @@ const translations = {
                 description: "詳細準備中",
                 tech: ["使用言語", "使用言語", "使用言語"]
             }
+        },
+        updatesTitle: "最近の状況",
+        updates: {
+            currentStatus: ["現在の状態", "フロントエンド開発の仕事を積極的に探しながら、新しい技術を学び続けています。"],
+            learning: ["学習の進捗", "現在ReactとTypeScriptを勉強しながら、ポートフォリオサイトを作成中です。"],
+            futurePlan: ["今後の計画", "フルスタック開発技術を学び、オープンソースプロジェクトに貢献する予定です。"],
+            teamBuilding: ["チーム募集", "開発チームを結成中で、現在アーティストを募集しています。興味のある方はご連絡ください！"]
         },
         // Add more translations as needed
     }
@@ -327,6 +348,21 @@ const updateContent = (lang) => {
     document.querySelector('[data-i18n="programmingTitle"]').textContent = translations[lang].programmingTitle;
     document.querySelector('[data-i18n="designTitle"]').textContent = translations[lang].designTitle;
     
+    // Update updates section
+    document.querySelector('[data-i18n-updates="title"]').textContent = translations[lang].updatesTitle;
+    document.querySelectorAll('[data-i18n-updates="currentStatus"]').forEach((element, index) => {
+        element.textContent = translations[lang].updates.currentStatus[index];
+    });
+    document.querySelectorAll('[data-i18n-updates="learning"]').forEach((element, index) => {
+        element.textContent = translations[lang].updates.learning[index];
+    });
+    document.querySelectorAll('[data-i18n-updates="futurePlan"]').forEach((element, index) => {
+        element.textContent = translations[lang].updates.futurePlan[index];
+    });
+    document.querySelectorAll('[data-i18n-updates="teamBuilding"]').forEach((element, index) => {
+        element.textContent = translations[lang].updates.teamBuilding[index];
+    });
+    
     // Update all skill cards
     document.querySelectorAll('[data-i18n-skill]').forEach(element => {
         const skillKey = element.getAttribute('data-i18n-skill');
@@ -432,10 +468,8 @@ const initSwiper = () => {
 };
 
 // Generate code example cards
-// Generate code example cards
 const generateCodeCards = () => {
-    // 獲取或創建容器
-    const container = document.querySelector('.grid');
+    const container = document.querySelector('.code-examples-section');
     container.className = 'code-section';
 
     // 創建卡片網格容器
