@@ -7,11 +7,6 @@
 <p align="center"><img src="https://skillicons.dev/icons?i=md,java,c,cpp,cs,py,pytorch,selenium,&theme=light" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=discord,twitter,sqlite,mysql,anaconda,npm,cmake,dotnet,&theme=light" /></p>
 
-## My GitHub Trends
-
-<p align="center">
-<img src="https://api.githubtrends.io/user/svg/alicezuber/langs?time_range=one_year&include_private=True&loc_metric=changed&compact=True&theme=dark" />
-</p>
 
 ## About Me
 
