@@ -68,6 +68,10 @@ and AI-assisted system interaction**.
 </div>
 
 
+<p align="center">
+  <img width="520" alt="personal-visual" src="https://github.com/user-attachments/assets/aad1c5b6-8a1f-4842-b5c9-4f255469c93f" />
+</p>
+
 <div align="center">
 
 ## 🧰 Tech Stack Snapshot 🧰
@@ -137,10 +141,6 @@ which strengthens my communication skills and attention to detail.
 技術とユーザー体験の両立を大切にしています。
 </div>
 
-
-<p align="center">
-  <img width="720" alt="personal-visual" src="https://github.com/user-attachments/assets/aad1c5b6-8a1f-4842-b5c9-4f255469c93f" />
-</p>
 
 
 ## My Motto
