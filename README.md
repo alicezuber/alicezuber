@@ -127,8 +127,7 @@ and AI-assisted system interaction**.
 目前主修 **資訊管理（Information Management）**，  
 專注於 **Infrastructure / Backend / Security** 相關領域。
 
-在技術之外，我長期參與 **遊戲、MOD 與插件的在地化與翻譯工作**，  
-培養了良好的 **跨語言溝通能力、細節敏感度，以及對使用者體驗的重視**。
+在技術之外，我長期參與 **遊戲、MOD 與插件的在地化與翻譯工作**。
 
 ---
 
@@ -137,8 +136,7 @@ I major in **Information Management**, with a strong focus on
 **Infrastructure, backend systems, and security-oriented development**.
 
 In addition to engineering, I actively contribute to  
-**game, mod, and plugin localization projects**,  
-which strengthens my communication skills and attention to detail.
+**game, mod, and plugin localization projects**.
 
 ---
 
