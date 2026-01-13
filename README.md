@@ -2,11 +2,36 @@
 
 ## My Skills
 
+<p align="center"><img width="735" height="413" alt="image" src="https://github.com/user-attachments/assets/27f6da6b-0ee8-4038-9184-74ed13a9b5cd" /></p>
+
 <p align="center"><img src="https://skillicons.dev/icons?i=windows,vscode,postman,github,git,docker,wordpress,linux,&theme=light" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=vue,php,nodejs,html,css,js,jquery,nginx,&theme=light" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=md,java,c,cpp,cs,py,pytorch,selenium,&theme=light" /></p>
 <p align="center"><img src="https://skillicons.dev/icons?i=discord,twitter,sqlite,mysql,anaconda,npm,cmake,dotnet,&theme=light" /></p>
 
+
+
+## 🛠 Tech Stack
+
+### ☁️ Infrastructure & DevOps (Core Competency)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,git,github,bash&theme=light" />
+  </p>
+
+### 🔐 Backend & Security
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flask,fastapi,mysql,sqlite,redis,postman&theme=light" />
+  <img src="https://img.shields.io/badge/Auth-OIDC%20%2F%20OAuth2-4b2a85?style=flat-square&logo=openid" />
+  <img src="https://img.shields.io/badge/Security-SSO%20Impl-blue?style=flat-square&logo=security" />
+</p>
+
+### 💻 Client & Game Dev
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=godot,tauri,electron,vue,js,ts,cs,cpp&theme=light" />
+  <img src="https://skillicons.dev/icons?i=vscode,visualstudio,unity,md&theme=light" />
+</p>
+
+---
 
 ## About Me
 
