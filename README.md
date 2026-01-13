@@ -1,98 +1,171 @@
-# Hi, I am Minato Baiyun
+<div align="center">
 
-## My Skills
+# Hi, I am Minato Baiyun 👋  
 
-<p align="center"><img width="735" height="413" alt="image" src="https://github.com/user-attachments/assets/27f6da6b-0ee8-4038-9184-74ed13a9b5cd" /></p>
+**Infrastructure & DevOps • Backend & Security • Client / Game Dev**
 
-<p align="center"><img src="https://skillicons.dev/icons?i=windows,vscode,postman,github,git,docker,wordpress,linux,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=vue,php,nodejs,html,css,js,jquery,nginx,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=md,java,c,cpp,cs,py,pytorch,selenium,&theme=light" /></p>
-<p align="center"><img src="https://skillicons.dev/icons?i=discord,twitter,sqlite,mysql,anaconda,npm,cmake,dotnet,&theme=light" /></p>
-
-
-
-## 🛠 Tech Stack
-
-### ☁️ Infrastructure & DevOps (Core Competency)
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,git,github,bash&theme=light" />
-  </p>
-
-### 🔐 Backend & Security
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,fastapi,mysql,sqlite,redis,postman&theme=light" />
-  <img src="https://img.shields.io/badge/Auth-OIDC%20%2F%20OAuth2-4b2a85?style=flat-square&logo=openid" />
-  <img src="https://img.shields.io/badge/Security-SSO%20Impl-blue?style=flat-square&logo=security" />
+<p>
+  <a href="https://discordapp.com/users/632835000617926657">
+    <img src="https://img.shields.io/badge/Discord-captainbaiyun-5865F2?style=flat-square&logo=discord&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/Captain_Baiyun">
+    <img src="https://img.shields.io/badge/Twitter-@Captain_Baiyun-1DA1F2?style=flat-square&logo=twitter&logoColor=white" />
+  </a>
+  <a href="mailto:minato.baiyun@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-minato.baiyun%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
-### 💻 Client & Game Dev
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=godot,tauri,electron,vue,js,ts,cs,cpp&theme=light" />
-  <img src="https://skillicons.dev/icons?i=vscode,visualstudio,unity,md&theme=light" />
-</p>
+<img width="900" alt="hero" src="https://github.com/user-attachments/assets/27f6da6b-0ee8-4038-9184-74ed13a9b5cd" />
+
+</div>
 
 ---
 
-## About Me
+<div align="center">
 
-我來自[台灣](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3)。
+## ☁️ Core Competency — Infrastructure & DevOps ☁️
 
-我是資訊管理專業的學生。
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,git,github,bash&theme=light" />
 
-此外，我也參與翻譯各種遊戲、模組和插件。
+</div>
 
-I am from [Taiwan](https://en.wikipedia.org/wiki/Taiwan).
+---
 
-I am a student of Information Management.
+<div align="center">
 
-Additionally, I am involved in translating games, mods, and plugins.
+## 🔥 Highlights 🔥
 
-私は[台湾](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE)出身です。
+</div>
 
-情報管理(Information Management)を専攻しています。
+- **Discord Bot — Minato Shigure**  
+  Modular command system, scalable deployment, AI features planned  
 
-さらに、ゲーム、MOD、プラグインの翻訳にも携わっています。
+- **Backend & Security**  
+  OAuth2 / OIDC / SSO integration, API design, security-first mindset  
+
+- **Backend Stack**  
+  Python (Flask / FastAPI), Redis, MySQL / SQLite, Postman  
 
 
+---
+<div align="center">
+<h2>What am I Doing Lately</h2>
 
-## What am I doing lately
+I am currently developing a **personal microservice platform**  
+built around **ZITADEL-based SSO** for identity and access management.
 
-我目前正在開發一個名為 “[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)” 的 Discord 機器人。
-> 未來會增加 AI 功能。
+The system leverages **Web Push (PWA-style notifications)**  
+to deliver **real-time VPS status and system events**  
+directly to my iPhone with minimal latency.
 
-I am currently developing a Discord bot called “[Minato Shigure](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)”.
-> AI functionality will be added in the future.
+In parallel, I am integrating a **Discord bot with an Ollama-powered LLM agent**,  
+allowing me to **query VPS status and infrastructure information through natural language conversations**.
 
-Discordボット「[湊時雨](<https://www.patreon.com/posts/huan-ying-yao-yu-108584945>)」を開発しています。
-> 今後、AI機能が追加される予定です。
+This project focuses on **infrastructure observability, secure access control,  
+and AI-assisted system interaction**.
 
+</div>
+
+
+<div align="center">
+
+## 🧰 Tech Stack Snapshot 🧰
+
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,redis,mysql,sqlite,postman&theme=light" />
+</div>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vue,js,ts,nodejs,html,css,nginx&theme=light" />
+</div>
+
+---
+
+<div align="center">
+
+## 🛠 Tools & Environment 🛠
+
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=windows,linux,docker,git,github,vscode,postman&theme=light" />
+</div>
+
+---
+
+<div align="center">
+
+## 💻 Client & Game Development 💻
+
+</div>
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=godot,unity,tauri,electron,cs,cpp,js,ts&theme=light" />
+</div>
+
+
+---
+<div align="center">
+<H1> About Me</h1>
+
+我來自 [台灣](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3)，  
+目前主修 **資訊管理（Information Management）**，  
+專注於 **Infrastructure / Backend / Security** 相關領域。
+
+在技術之外，我長期參與 **遊戲、MOD 與插件的在地化與翻譯工作**，  
+培養了良好的 **跨語言溝通能力、細節敏感度，以及對使用者體驗的重視**。
+
+---
+
+I am from [Taiwan](https://en.wikipedia.org/wiki/Taiwan).  
+I major in **Information Management**, with a strong focus on  
+**Infrastructure, backend systems, and security-oriented development**.
+
+In addition to engineering, I actively contribute to  
+**game, mod, and plugin localization projects**,  
+which strengthens my communication skills and attention to detail.
+
+---
+
+私は [台湾](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE) 出身です。  
+**情報管理（Information Management）** を専攻し、  
+**インフラ・バックエンド・セキュリティ分野** に注力しています。
+
+また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、  
+技術とユーザー体験の両立を大切にしています。
+</div>
+
+
+<p align="center">
+  <img width="720" alt="personal-visual" src="https://github.com/user-attachments/assets/aad1c5b6-8a1f-4842-b5c9-4f255469c93f" />
+</p>
 
 
 ## My Motto
 
-<p align="left"><img src="https://github.com/user-attachments/assets/0ea66d7d-9126-459d-b6b3-cc2864c65f11" /></p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0ea66d7d-9126-459d-b6b3-cc2864c65f11" />
+</p>
 
-> **どんな人でも手を繋げばもう友達さ！** ---[ビカラ(十二神将)](https://dic.pixiv.net/a/%E3%83%93%E3%82%AB%E3%83%A9)
+> **どんな人でも手を繋げばもう友達さ！**  
+> — [ビカラ（十二神将）](https://dic.pixiv.net/a/%E3%83%93%E3%82%AB%E3%83%A9)
 
-> **No matter who you are, if we shake hands You're alread my friend!** ---[Vikala(十二神将)](https://gbf.wiki/Vikala)
+> **No matter who you are, if we shake hands, you're already my friend!**  
+> — [Vikala](https://gbf.wiki/Vikala)
 
-> **無論是什麼樣的人， 只要牽起手來就是朋友！** ---[畢卡拉(十二神将)](https://gbf.huijiwiki.com/wiki/Char/3040252000)
-
-
-
-## Contact Me
-
-- <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"> [captainbaiyun](https://discordapp.com/users/632835000617926657)
-- <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"> [Captain_Baiyun](https://twitter.com/Captain_Baiyun)
-- <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"> minato.baiyun@gmail.com
-
+> **無論是什麼樣的人，只要牽起手來就是朋友！**  
+> — [畢卡拉](https://gbf.huijiwiki.com/wiki/Char/3040252000)
 
 ---
 
-# Disclaimer 
+## Disclaimer
 
-The images used in this profile to showcase the games I play are the property of their respective copyright holders. These images are used solely for personal, non-commercial purposes to demonstrate my hobbies and interests. If there are any concerns regarding the use of these images, please feel free to contact me, and I will address the issue promptly.
+The images used in this profile are the property of their respective copyright holders.  
+They are used solely for **personal, non-commercial purposes**.
 
-此個人資料中展示的遊戲圖片屬於其各自版權持有者。這些圖片僅用於個人非商業用途，以展示我的興趣和愛好。如果對這些圖片的使用有任何疑慮，請隨時與我聯繫，我會盡快處理相關問題。
+若對圖片使用有任何疑慮，請與我聯繫，我會立即處理。
 
-このプロフィールで使用されているゲーム画像は、それぞれの著作権者に帰属します。これらの画像は、私の趣味や興味を示すために、個人的かつ非商業的な目的でのみ使用されています。画像の使用に関して問題がある場合は、お気軽にご連絡ください。速やかに対応いたします。
+このプロフィールで使用されている画像は、  
+個人的・非商業目的でのみ使用されています。
