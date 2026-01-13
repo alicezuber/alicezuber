@@ -74,6 +74,23 @@ const translations = {
             futurePlan: ["未來計畫", "計劃接觸更多全端開發技術，並參與開源專案貢獻。"],
             teamBuilding: ["團隊招募", "正在組建開發團隊，目前需要一位美術夥伴加入。有興趣的朋友歡迎聯繫！"]
         },
+        whatAmIDoingLatelyTitle: "最近在做什麼",
+        whatAmIDoingLatelyDesc1: "我目前正在開發一個個人微服務平台，圍繞 ZITADEL-based SSO 進行身份和訪問管理。",
+        whatAmIDoingLatelyDesc2: "該系統利用 Web Push（PWA 風格的通知）來交付實時 VPS 狀態和系統事件，直接到我的 iPhone，延遲最小。",
+        whatAmIDoingLatelyDesc3: "同時，我正在整合一個 Discord 機器人與 Ollama 驅動的 LLM 代理，允許我通過自然語言對話查詢 VPS 狀態和基礎設施信息。",
+        whatAmIDoingLatelyDesc4: "這個項目專注於基礎設施可觀測性、安全訪問控制和 AI 輔助系統交互。",
+        aboutMeTitle: "關於我",
+        aboutMeZh1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
+        aboutMeZh2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
+        aboutMeEn1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
+        aboutMeEn2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
+        aboutMeJa1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
+        aboutMeJa2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
+        mottoTitle: "My Motto",
+        mottoJp: "どんな人でも手を繋げばもう友達さ！",
+        mottoEn: "No matter who you are, if we shake hands You're already my friend!",
+        mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
+        mottoCredit: "--- 畢卡拉(十二神将)",
         // Add more translations as needed
     },
     en: {
@@ -150,6 +167,23 @@ const translations = {
             futurePlan: ["Future Plans", "Planning to explore more full-stack development technologies and contribute to open source projects."],
             teamBuilding: ["Team Recruitment", "Building a development team and currently looking for an artist to join. If interested, please get in touch!"]
         },
+        whatAmIDoingLatelyTitle: "What am I Doing Lately",
+        whatAmIDoingLatelyDesc1: "I am currently developing a personal microservice platform built around ZITADEL-based SSO for identity and access management.",
+        whatAmIDoingLatelyDesc2: "The system leverages Web Push (PWA-style notifications) to deliver real-time VPS status and system events directly to my iPhone with minimal latency.",
+        whatAmIDoingLatelyDesc3: "In parallel, I am integrating a Discord bot with an Ollama-powered LLM agent, allowing me to query VPS status and infrastructure information through natural language conversations.",
+        whatAmIDoingLatelyDesc4: "This project focuses on infrastructure observability, secure access control, and AI-assisted system interaction.",
+        aboutMeTitle: "About Me",
+        aboutMeZh1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
+        aboutMeZh2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
+        aboutMeEn1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
+        aboutMeEn2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
+        aboutMeJa1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
+        aboutMeJa2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
+        mottoTitle: "My Motto",
+        mottoJp: "どんな人でも手を繋げばもう友達さ！",
+        mottoEn: "No matter who you are, if we shake hands You're already my friend!",
+        mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
+        mottoCredit: "--- Vikala(十二神将)",
         // Add more translations as needed
     },
     ja: {
@@ -226,6 +260,23 @@ const translations = {
             futurePlan: ["今後の計画", "フルスタック開発技術を学び、オープンソースプロジェクトに貢献する予定です。"],
             teamBuilding: ["チーム募集", "開発チームを結成中で、現在アーティストを募集しています。興味のある方はご連絡ください！"]
         },
+        whatAmIDoingLatelyTitle: "最近何をしているか",
+        whatAmIDoingLatelyDesc1: "現在、ZITADELベースのSSOを中心とした個人マイクロサービスプラットフォームを開発しています。",
+        whatAmIDoingLatelyDesc2: "このシステムは、Web Push（PWAスタイルの通知）を活用して、リアルタイムのVPSステータスとシステムイベントを最小遅延で私のiPhoneに直接配信します。",
+        whatAmIDoingLatelyDesc3: "並行して、DiscordボットとOllama駆動のLLMエージェントを統合し、自然言語会話を通じてVPSステータスとインフラ情報をクエリできるようにしています。",
+        whatAmIDoingLatelyDesc4: "このプロジェクトは、インフラの可観測性、安全なアクセス制御、AI支援のシステムインタラクションに焦点を当てています。",
+        aboutMeTitle: "私について",
+        aboutMeZh1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
+        aboutMeZh2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
+        aboutMeEn1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
+        aboutMeEn2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
+        aboutMeJa1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
+        aboutMeJa2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
+        mottoTitle: "My Motto",
+        mottoJp: "どんな人でも手を繋げばもう友達さ！",
+        mottoEn: "No matter who you are, if we shake hands You're already my friend!",
+        mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
+        mottoCredit: "--- ビカラ(十二神将)",
         // Add more translations as needed
     }
 };
@@ -362,6 +413,29 @@ const updateContent = (lang) => {
     document.querySelectorAll('[data-i18n-updates="teamBuilding"]').forEach((element, index) => {
         element.textContent = translations[lang].updates.teamBuilding[index];
     });
+    
+    // Update what am I doing lately section
+    document.querySelector('[data-i18n="whatAmIDoingLatelyTitle"]').textContent = translations[lang].whatAmIDoingLatelyTitle;
+    document.querySelector('[data-i18n="whatAmIDoingLatelyDesc1"]').textContent = translations[lang].whatAmIDoingLatelyDesc1;
+    document.querySelector('[data-i18n="whatAmIDoingLatelyDesc2"]').textContent = translations[lang].whatAmIDoingLatelyDesc2;
+    document.querySelector('[data-i18n="whatAmIDoingLatelyDesc3"]').textContent = translations[lang].whatAmIDoingLatelyDesc3;
+    document.querySelector('[data-i18n="whatAmIDoingLatelyDesc4"]').textContent = translations[lang].whatAmIDoingLatelyDesc4;
+    
+    // Update about me section
+    document.querySelector('[data-i18n="aboutMeTitle"]').textContent = translations[lang].aboutMeTitle;
+    document.querySelector('[data-i18n="aboutMeZh1"]').innerHTML = translations[lang].aboutMeZh1;
+    document.querySelector('[data-i18n="aboutMeZh2"]').innerHTML = translations[lang].aboutMeZh2;
+    document.querySelector('[data-i18n="aboutMeEn1"]').innerHTML = translations[lang].aboutMeEn1;
+    document.querySelector('[data-i18n="aboutMeEn2"]').innerHTML = translations[lang].aboutMeEn2;
+    document.querySelector('[data-i18n="aboutMeJa1"]').innerHTML = translations[lang].aboutMeJa1;
+    document.querySelector('[data-i18n="aboutMeJa2"]').innerHTML = translations[lang].aboutMeJa2;
+    
+    // Update motto section
+    document.querySelector('[data-i18n="mottoTitle"]').textContent = translations[lang].mottoTitle;
+    document.querySelector('[data-i18n="mottoJp"]').textContent = translations[lang].mottoJp;
+    document.querySelector('[data-i18n="mottoEn"]').textContent = translations[lang].mottoEn;
+    document.querySelector('[data-i18n="mottoZh"]').textContent = translations[lang].mottoZh;
+    document.querySelector('[data-i18n="mottoCredit"]').textContent = translations[lang].mottoCredit;
     
     // Update all skill cards
     document.querySelectorAll('[data-i18n-skill]').forEach(element => {
