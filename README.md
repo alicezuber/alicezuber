@@ -38,14 +38,23 @@
 
 </div>
 
-- **Discord Bot — Minato Shigure**  
-  Modular command system, scalable deployment, AI features planned  
+- **Infrastructure Assistant Platform**  
+  Designed and implemented a **personal microservice system**  
+  centered around **ZITADEL-based SSO**, enabling secure identity  
+  and access management across services.
 
-- **Backend & Security**  
-  OAuth2 / OIDC / SSO integration, API design, security-first mindset  
+- **Real-time VPS Observability**  
+  Built a **Web Push notification pipeline** to deliver  
+  **real-time VPS health and system events** directly to mobile devices  
+  with low latency.
 
-- **Backend Stack**  
-  Python (Flask / FastAPI), Redis, MySQL / SQLite, Postman  
+- **AI-assisted Infrastructure Interaction**  
+  Integrated a **Discord bot with an Ollama-powered LLM agent**,  
+  allowing **natural language queries for VPS status and infrastructure data**.
+
+- **Backend & Security Focus**  
+  Hands-on experience with **OAuth2 / OIDC**, API design,  
+  and security-conscious backend development.
 
 
 ---
