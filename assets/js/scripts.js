@@ -80,17 +80,57 @@ const translations = {
         whatAmIDoingLatelyDesc3: "同時，我正在整合一個 Discord 機器人與 Ollama 驅動的 LLM 代理，允許我通過自然語言對話查詢 VPS 狀態和基礎設施信息。",
         whatAmIDoingLatelyDesc4: "這個項目專注於基礎設施可觀測性、安全訪問控制和 AI 輔助系統交互。",
         aboutMeTitle: "關於我",
-        aboutMeZh1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
-        aboutMeZh2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
-        aboutMeEn1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
-        aboutMeEn2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
-        aboutMeJa1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
-        aboutMeJa2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
+        aboutMeDesc1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
+        aboutMeDesc2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
         mottoTitle: "My Motto",
         mottoJp: "どんな人でも手を繋げばもう友達さ！",
         mottoEn: "No matter who you are, if we shake hands You're already my friend!",
         mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
         mottoCredit: "--- 畢卡拉(十二神将)",
+        technicalSkillsTitle: "技術技能",
+        infraDevOpsTitle: "基礎設施與維運",
+        infraContainerTitle: "容器化",
+        infraContainerDesc: "Docker, Docker Compose (熟悉撰寫 Dockerfile 與 Multi-stage builds)",
+        infraOrchTitle: "編排工具",
+        infraOrchDesc: "Kubernetes (K8s), Helm Charts (具備 Homelab 架設與管理經驗)",
+        infraOsTitle: "作業系統",
+        infraOsDesc: "Linux (Ubuntu/CentOS), WSL2 開發環境調校, Shell Scripting",
+        infraCicdTitle: "CI/CD",
+        infraCicdDesc: "Git, GitHub Actions (基礎自動化流程)",
+        backendSecurityTitle: "後端與資安",
+        backendLangTitle: "程式語言",
+        backendLangDesc: "Python (主力), Node.js, PHP",
+        backendFrameworkTitle: "框架",
+        backendFrameworkDesc: "FastAPI, Flask, Express.js",
+        backendDbTitle: "資料庫與 ORM",
+        backendDbDesc: "MySQL, Redis, SQLite, Prisma ORM",
+        backendSecTitle: "安全協定",
+        backendSecDesc: "OIDC (OpenID Connect), OAuth 2.0, SSO (Single Sign-On) 實作經驗",
+        clientToolsTitle: "客戶端與工具",
+        clientDesktopTitle: "桌面應用/遊戲",
+        clientDesktopDesc: "Electron, Tauri, Godot 4 (GDScript)",
+        clientToolsListTitle: "開發工具",
+        clientToolsListDesc: "Postman, VS Code, Nginx (Reverse Proxy 設定)",
+        selectedProjectsTitle: "專案經驗",
+        project1Title: "區塊鏈與 LSTM 碳權交易平台 (畢業專題)",
+        project1Tech: "技術棧: Node.js (Express), Prisma ORM, MySQL, Blockchain (Ganache), LSTM Model",
+        project1Desc1: "系統架構設計: 設計分層架構 (Service Layer Pattern)，整合 API 層、資料庫 (MySQL/Prisma) 與區塊鏈合約 (Ganache)，確保交易資料的不可篡改性與一致性。",
+        project1Desc2: "後端核心開發: 使用 Express.js 搭配 Prisma ORM 進行型別安全的資料庫操作，管理用戶、訂單、碳權庫存等完整生命週期。",
+        project1Desc3: "交易安全機制: 整合 LSTM (長短期記憶模型) 進行訂單異常檢測，在搓合交易前識別異常值並自動觸發凍結機制，提升平台安全性。",
+        project2Title: "自建 SSO 身份驗證系統",
+        project2Tech: "技術棧: Python, OIDC, OAuth 2.0, Docker",
+        project2Desc1: "為了深入理解資安協定，不依賴第三方服務 (如 Auth0)，從零實作符合 OpenID Connect 標準的中央驗證系統。",
+        project2Desc2: "實作完整的 OAuth2 授權流程 (Authorization Code Flow)，包含 Access Token 與 Refresh Token 的簽發與驗證機制。",
+        project2Desc3: "解決了跨服務 (Cross-service) 的身份單一登入問題，並將服務容器化部署。",
+        project3Title: "居家實驗室基礎設施",
+        project3Tech: "技術棧: Kubernetes (K8s), Linux, Docker Compose",
+        project3Desc1: "建置並維護個人的微服務實驗室，實踐 Infrastructure as Code (IaC) 概念。",
+        project3Desc2: "使用 K8s 管理多個服務節點，配置 Nginx Ingress 處理流量路由。",
+        project3Desc3: "透過 Grafana/Prometheus (概念驗證階段) 監控系統資源，確保服務穩定性。",
+        project4Title: "Minato Shigure Discord Bot (AI 整合專案)",
+        project4Tech: "技術棧: Python, Discord.py, LLM Integration",
+        project4Desc1: "開發具備社群管理功能的 Discord 機器人。",
+        project4Desc2: "目前正在整合 Generative AI (LLM) 與 ComfyUI API，目標是讓機器人具備自動生成圖文內容的能力，優化社群互動體驗。",
         // Add more translations as needed
     },
     en: {
@@ -173,17 +213,57 @@ const translations = {
         whatAmIDoingLatelyDesc3: "In parallel, I am integrating a Discord bot with an Ollama-powered LLM agent, allowing me to query VPS status and infrastructure information through natural language conversations.",
         whatAmIDoingLatelyDesc4: "This project focuses on infrastructure observability, secure access control, and AI-assisted system interaction.",
         aboutMeTitle: "About Me",
-        aboutMeZh1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
-        aboutMeZh2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
-        aboutMeEn1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
-        aboutMeEn2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
-        aboutMeJa1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
-        aboutMeJa2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
+        aboutMeDesc1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
+        aboutMeDesc2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
         mottoTitle: "My Motto",
         mottoJp: "どんな人でも手を繋げばもう友達さ！",
         mottoEn: "No matter who you are, if we shake hands You're already my friend!",
         mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
         mottoCredit: "--- Vikala(十二神将)",
+        technicalSkillsTitle: "Technical Skills",
+        infraDevOpsTitle: "Infrastructure & DevOps",
+        infraContainerTitle: "Containerization",
+        infraContainerDesc: "Docker, Docker Compose (Dockerfile & Multi-stage builds)",
+        infraOrchTitle: "Orchestration",
+        infraOrchDesc: "Kubernetes (K8s), Helm Charts (Homelab experience)",
+        infraOsTitle: "OS",
+        infraOsDesc: "Linux (Ubuntu/CentOS), WSL2, Shell Scripting",
+        infraCicdTitle: "CI/CD",
+        infraCicdDesc: "Git, GitHub Actions",
+        backendSecurityTitle: "Backend & Security",
+        backendLangTitle: "Languages",
+        backendLangDesc: "Python, Node.js, PHP",
+        backendFrameworkTitle: "Frameworks",
+        backendFrameworkDesc: "FastAPI, Flask, Express.js",
+        backendDbTitle: "Database & ORM",
+        backendDbDesc: "MySQL, Redis, SQLite, Prisma ORM",
+        backendSecTitle: "Security Protocols",
+        backendSecDesc: "OIDC, OAuth 2.0, SSO implementation",
+        clientToolsTitle: "Client & Tools",
+        clientDesktopTitle: "Desktop/Game",
+        clientDesktopDesc: "Electron, Tauri, Godot 4 (GDScript)",
+        clientToolsListTitle: "Tools",
+        clientToolsListDesc: "Postman, VS Code, Nginx (Reverse Proxy)",
+        selectedProjectsTitle: "Selected Projects",
+        project1Title: "Blockchain & LSTM Carbon Trading Platform (Graduation Project)",
+        project1Tech: "Tech Stack: Node.js (Express), Prisma ORM, MySQL, Blockchain (Ganache), LSTM Model",
+        project1Desc1: "System Architecture Design: Designed layered architecture (Service Layer Pattern), integrating API layer, database (MySQL/Prisma), and blockchain contracts (Ganache).",
+        project1Desc2: "Backend Core Development: Used Express.js with Prisma ORM for type-safe database operations, managing users, orders, and carbon credit inventory lifecycle.",
+        project1Desc3: "Transaction Security: Integrated LSTM model for anomaly detection in orders, automatically triggering freeze mechanisms before matching transactions.",
+        project2Title: "Custom SSO Identity Provider",
+        project2Tech: "Tech Stack: Python, OIDC, OAuth 2.0, Docker",
+        project2Desc1: "Built OpenID Connect-compliant authentication system from scratch without third-party services (like Auth0).",
+        project2Desc2: "Implemented full OAuth2 Authorization Code Flow with Access Token and Refresh Token issuance and validation.",
+        project2Desc3: "Solved cross-service single sign-on challenges and containerized deployment.",
+        project3Title: "Homelab Infrastructure",
+        project3Tech: "Tech Stack: Kubernetes (K8s), Linux, Docker Compose",
+        project3Desc1: "Built and maintained personal microservices lab, practicing Infrastructure as Code (IaC) concepts.",
+        project3Desc2: "Used K8s to manage multiple service nodes, configured Nginx Ingress for traffic routing.",
+        project3Desc3: "Monitored system resources with Grafana/Prometheus (PoC stage) to ensure service stability.",
+        project4Title: "Minato Shigure Discord Bot (AI Integration Project)",
+        project4Tech: "Tech Stack: Python, Discord.py, LLM Integration",
+        project4Desc1: "Developed Discord bot with community management features.",
+        project4Desc2: "Currently integrating Generative AI (LLM) and ComfyUI API for automated content generation to enhance community interaction.",
         // Add more translations as needed
     },
     ja: {
@@ -266,17 +346,57 @@ const translations = {
         whatAmIDoingLatelyDesc3: "並行して、DiscordボットとOllama駆動のLLMエージェントを統合し、自然言語会話を通じてVPSステータスとインフラ情報をクエリできるようにしています。",
         whatAmIDoingLatelyDesc4: "このプロジェクトは、インフラの可観測性、安全なアクセス制御、AI支援のシステムインタラクションに焦点を当てています。",
         aboutMeTitle: "私について",
-        aboutMeZh1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
-        aboutMeZh2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
-        aboutMeEn1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
-        aboutMeEn2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
-        aboutMeJa1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
-        aboutMeJa2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
+        aboutMeDesc1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
+        aboutMeDesc2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
         mottoTitle: "My Motto",
         mottoJp: "どんな人でも手を繋げばもう友達さ！",
         mottoEn: "No matter who you are, if we shake hands You're already my friend!",
         mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
         mottoCredit: "--- ビカラ(十二神将)",
+        technicalSkillsTitle: "技術スキル",
+        infraDevOpsTitle: "インフラとDevOps",
+        infraContainerTitle: "コンテナ化",
+        infraContainerDesc: "Docker, Docker Compose (Dockerfile & Multi-stage builds)",
+        infraOrchTitle: "オーケストレーション",
+        infraOrchDesc: "Kubernetes (K8s), Helm Charts (Homelab経験あり)",
+        infraOsTitle: "OS",
+        infraOsDesc: "Linux (Ubuntu/CentOS), WSL2, Shell Scripting",
+        infraCicdTitle: "CI/CD",
+        infraCicdDesc: "Git, GitHub Actions",
+        backendSecurityTitle: "バックエンドとセキュリティ",
+        backendLangTitle: "プログラミング言語",
+        backendLangDesc: "Python, Node.js, PHP",
+        backendFrameworkTitle: "フレームワーク",
+        backendFrameworkDesc: "FastAPI, Flask, Express.js",
+        backendDbTitle: "データベースとORM",
+        backendDbDesc: "MySQL, Redis, SQLite, Prisma ORM",
+        backendSecTitle: "セキュリティプロトコル",
+        backendSecDesc: "OIDC, OAuth 2.0, SSO実装経験",
+        clientToolsTitle: "クライアントとツール",
+        clientDesktopTitle: "デスクトップ/ゲーム",
+        clientDesktopDesc: "Electron, Tauri, Godot 4 (GDScript)",
+        clientToolsListTitle: "ツール",
+        clientToolsListDesc: "Postman, VS Code, Nginx (Reverse Proxy)",
+        selectedProjectsTitle: "主なプロジェクト",
+        project1Title: "ブロックチェーン&LSTM炭素取引プラットフォーム（卒業研究）",
+        project1Tech: "技術スタック: Node.js (Express), Prisma ORM, MySQL, Blockchain (Ganache), LSTM Model",
+        project1Desc1: "システムアーキテクチャ設計：階層アーキテクチャ（Service Layer Pattern）を設計し、APIレイヤー、データベース（MySQL/Prisma）、ブロックチェーン契約（Ganache）を統合。",
+        project1Desc2: "バックエンドコア開発：Express.jsとPrisma ORMを使用し、型安全なデータベース操作を実現し、ユーザー、注文、炭素クレジット在庫のライフサイクルを管理。",
+        project1Desc3: "取引セキュリティ：LSTMモデルを統合し、注文の異常検出を行い、取引マッチング前に異常値を識別し、自動的に凍結メカニズムをトリガー。",
+        project2Title: "カスタムSSO認証システム",
+        project2Tech: "技術スタック: Python, OIDC, OAuth 2.0, Docker",
+        project2Desc1: "サードパーティサービス（Auth0など）に依存せず、OpenID Connect標準に準拠した認証システムをゼロから構築。",
+        project2Desc2: "完全なOAuth2認可コードフローを実装し、アクセストークンとリフレッシュトークンの発行と検証メカニズムを含む。",
+        project2Desc3: "クロスサービスのシングルサインオン課題を解決し、コンテナ化されたデプロイメントを実現。",
+        project3Title: "ホームラボインフラストラクチャ",
+        project3Tech: "技術スタック: Kubernetes (K8s), Linux, Docker Compose",
+        project3Desc1: "個人のマイクロサービスラボを構築・維持し、Infrastructure as Code（IaC）の概念を実践。",
+        project3Desc2: "K8sを使用して複数のサービスノードを管理し、Nginx Ingressでトラフィックルーティングを設定。",
+        project3Desc3: "Grafana/Prometheus（PoC段階）でシステムリソースを監視し、サービスの安定性を確保。",
+        project4Title: "Minato Shigure Discord Bot（AI統合プロジェクト）",
+        project4Tech: "技術スタック: Python, Discord.py, LLM Integration",
+        project4Desc1: "コミュニティ管理機能を備えたDiscordボットを開発。",
+        project4Desc2: "現在、Generative AI（LLM）とComfyUI APIを統合し、自動コンテンツ生成機能を実現してコミュニティインタラクションを最適化中。",
         // Add more translations as needed
     }
 };
@@ -423,12 +543,8 @@ const updateContent = (lang) => {
     
     // Update about me section
     document.querySelector('[data-i18n="aboutMeTitle"]').textContent = translations[lang].aboutMeTitle;
-    document.querySelector('[data-i18n="aboutMeZh1"]').innerHTML = translations[lang].aboutMeZh1;
-    document.querySelector('[data-i18n="aboutMeZh2"]').innerHTML = translations[lang].aboutMeZh2;
-    document.querySelector('[data-i18n="aboutMeEn1"]').innerHTML = translations[lang].aboutMeEn1;
-    document.querySelector('[data-i18n="aboutMeEn2"]').innerHTML = translations[lang].aboutMeEn2;
-    document.querySelector('[data-i18n="aboutMeJa1"]').innerHTML = translations[lang].aboutMeJa1;
-    document.querySelector('[data-i18n="aboutMeJa2"]').innerHTML = translations[lang].aboutMeJa2;
+    document.querySelector('[data-i18n="aboutMeDesc1"]').innerHTML = translations[lang].aboutMeDesc1;
+    document.querySelector('[data-i18n="aboutMeDesc2"]').innerHTML = translations[lang].aboutMeDesc2;
     
     // Update motto section
     document.querySelector('[data-i18n="mottoTitle"]').textContent = translations[lang].mottoTitle;
@@ -436,6 +552,58 @@ const updateContent = (lang) => {
     document.querySelector('[data-i18n="mottoEn"]').textContent = translations[lang].mottoEn;
     document.querySelector('[data-i18n="mottoZh"]').textContent = translations[lang].mottoZh;
     document.querySelector('[data-i18n="mottoCredit"]').textContent = translations[lang].mottoCredit;
+    
+    // Update technical skills section
+    if (document.querySelector('[data-i18n="technicalSkillsTitle"]')) {
+        document.querySelector('[data-i18n="technicalSkillsTitle"]').textContent = translations[lang].technicalSkillsTitle;
+        document.querySelector('[data-i18n="infraDevOpsTitle"]').textContent = translations[lang].infraDevOpsTitle;
+        document.querySelector('[data-i18n="infraContainerTitle"]').textContent = translations[lang].infraContainerTitle;
+        document.querySelector('[data-i18n="infraContainerDesc"]').textContent = translations[lang].infraContainerDesc;
+        document.querySelector('[data-i18n="infraOrchTitle"]').textContent = translations[lang].infraOrchTitle;
+        document.querySelector('[data-i18n="infraOrchDesc"]').textContent = translations[lang].infraOrchDesc;
+        document.querySelector('[data-i18n="infraOsTitle"]').textContent = translations[lang].infraOsTitle;
+        document.querySelector('[data-i18n="infraOsDesc"]').textContent = translations[lang].infraOsDesc;
+        document.querySelector('[data-i18n="infraCicdTitle"]').textContent = translations[lang].infraCicdTitle;
+        document.querySelector('[data-i18n="infraCicdDesc"]').textContent = translations[lang].infraCicdDesc;
+        document.querySelector('[data-i18n="backendSecurityTitle"]').textContent = translations[lang].backendSecurityTitle;
+        document.querySelector('[data-i18n="backendLangTitle"]').textContent = translations[lang].backendLangTitle;
+        document.querySelector('[data-i18n="backendLangDesc"]').textContent = translations[lang].backendLangDesc;
+        document.querySelector('[data-i18n="backendFrameworkTitle"]').textContent = translations[lang].backendFrameworkTitle;
+        document.querySelector('[data-i18n="backendFrameworkDesc"]').textContent = translations[lang].backendFrameworkDesc;
+        document.querySelector('[data-i18n="backendDbTitle"]').textContent = translations[lang].backendDbTitle;
+        document.querySelector('[data-i18n="backendDbDesc"]').textContent = translations[lang].backendDbDesc;
+        document.querySelector('[data-i18n="backendSecTitle"]').textContent = translations[lang].backendSecTitle;
+        document.querySelector('[data-i18n="backendSecDesc"]').textContent = translations[lang].backendSecDesc;
+        document.querySelector('[data-i18n="clientToolsTitle"]').textContent = translations[lang].clientToolsTitle;
+        document.querySelector('[data-i18n="clientDesktopTitle"]').textContent = translations[lang].clientDesktopTitle;
+        document.querySelector('[data-i18n="clientDesktopDesc"]').textContent = translations[lang].clientDesktopDesc;
+        document.querySelector('[data-i18n="clientToolsListTitle"]').textContent = translations[lang].clientToolsListTitle;
+        document.querySelector('[data-i18n="clientToolsListDesc"]').textContent = translations[lang].clientToolsListDesc;
+    }
+    
+    // Update selected projects section
+    if (document.querySelector('[data-i18n="selectedProjectsTitle"]')) {
+        document.querySelector('[data-i18n="selectedProjectsTitle"]').textContent = translations[lang].selectedProjectsTitle;
+        document.querySelector('[data-i18n="project1Title"]').textContent = translations[lang].project1Title;
+        document.querySelector('[data-i18n="project1Tech"]').textContent = translations[lang].project1Tech;
+        document.querySelector('[data-i18n="project1Desc1"]').textContent = translations[lang].project1Desc1;
+        document.querySelector('[data-i18n="project1Desc2"]').textContent = translations[lang].project1Desc2;
+        document.querySelector('[data-i18n="project1Desc3"]').textContent = translations[lang].project1Desc3;
+        document.querySelector('[data-i18n="project2Title"]').textContent = translations[lang].project2Title;
+        document.querySelector('[data-i18n="project2Tech"]').textContent = translations[lang].project2Tech;
+        document.querySelector('[data-i18n="project2Desc1"]').textContent = translations[lang].project2Desc1;
+        document.querySelector('[data-i18n="project2Desc2"]').textContent = translations[lang].project2Desc2;
+        document.querySelector('[data-i18n="project2Desc3"]').textContent = translations[lang].project2Desc3;
+        document.querySelector('[data-i18n="project3Title"]').textContent = translations[lang].project3Title;
+        document.querySelector('[data-i18n="project3Tech"]').textContent = translations[lang].project3Tech;
+        document.querySelector('[data-i18n="project3Desc1"]').textContent = translations[lang].project3Desc1;
+        document.querySelector('[data-i18n="project3Desc2"]').textContent = translations[lang].project3Desc2;
+        document.querySelector('[data-i18n="project3Desc3"]').textContent = translations[lang].project3Desc3;
+        document.querySelector('[data-i18n="project4Title"]').textContent = translations[lang].project4Title;
+        document.querySelector('[data-i18n="project4Tech"]').textContent = translations[lang].project4Tech;
+        document.querySelector('[data-i18n="project4Desc1"]').textContent = translations[lang].project4Desc1;
+        document.querySelector('[data-i18n="project4Desc2"]').textContent = translations[lang].project4Desc2;
+    }
     
     // Update all skill cards
     document.querySelectorAll('[data-i18n-skill]').forEach(element => {
