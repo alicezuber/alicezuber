@@ -22,15 +22,6 @@
 
 ---
 
-<div align="center">
-
-## ☁️ Core Competency — Infrastructure & DevOps ☁️
-
-<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,git,github,bash&theme=light" />
-
-</div>
-
----
 
 <div align="center">
 
@@ -58,6 +49,53 @@
   
 - **Blockchain & AI Trading Platform (Graduation Project)** Architected a **Carbon Credit Trading System** using **Node.js, Prisma, and Solidity**.  
   [cite_start]Integrated an **LSTM-based anomaly detection model** to prevent fraud and ensured data immutability via a **private blockchain (Ganache)**.
+
+
+
+---
+
+<div align="center">
+  <h1>About Me</h1>
+</div>
+
+<img src="https://i.pinimg.com/736x/f0/92/f2/f092f2b44ba8a2f72cad829ef9bec76e.jpg" align="right" width="35%" style="margin-left: 20px; border-radius: 10px;" />
+
+<div align="left">
+  <p>
+    我來自 <a href="https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3">台灣</a>，
+    目前主修 <b>資訊管理（Information Management）</b>，
+    專注於 <b>Infrastructure / Backend / Security</b> 相關領域。
+  </p>
+  <p>
+    在技術之外，我長期參與 <b>遊戲、MOD 與插件的在地化與翻譯工作</b>。
+  </p>
+  
+  <br>
+
+  <p>
+    I am from <a href="https://en.wikipedia.org/wiki/Taiwan">Taiwan</a>.
+    I major in <b>Information Management</b>, with a strong focus on
+    <b>Infrastructure, backend systems, and security-oriented development</b>.
+  </p>
+  <p>
+    In addition to engineering, I actively contribute to
+    <b>game, mod, and plugin localization projects</b>.
+  </p>
+
+  <br>
+
+  <p>
+    私は <a href="https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE">台湾</a> 出身です。
+    <b>情報管理（Information Management）</b> を専攻し、
+    <b>インフラ・バックエンド・セキュリティ分野</b> に注力しています。
+  </p>
+  <p>
+    また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、
+    技術とユーザー体験の両立を大切にしています。
+  </p>
+</div>
+
+<br clear="all" />
 
 ---
 <div align="center">
@@ -116,6 +154,18 @@ Designed the AI module as an independent <b>Python Microservice</b>, decoupling 
 <hr/>
 
 
+
+<div align="center">
+
+## ☁️ Core Competency — Infrastructure & DevOps ☁️
+
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,git,github,bash&theme=light" />
+
+</div>
+
+---
+
+
 ## 🧰 Tech Stack Snapshot 🧰
 
 </div>
@@ -153,33 +203,7 @@ Designed the AI module as an independent <b>Python Microservice</b>, decoupling 
 
 
 ---
-<div align="center">
-<H1> About Me</h1>
 
-我來自 [台灣](https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3)，  
-目前主修 **資訊管理（Information Management）**，  
-專注於 **Infrastructure / Backend / Security** 相關領域。
-
-在技術之外，我長期參與 **遊戲、MOD 與插件的在地化與翻譯工作**。
-
----
-
-I am from [Taiwan](https://en.wikipedia.org/wiki/Taiwan).  
-I major in **Information Management**, with a strong focus on  
-**Infrastructure, backend systems, and security-oriented development**.
-
-In addition to engineering, I actively contribute to  
-**game, mod, and plugin localization projects**.
-
----
-
-私は [台湾](https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE) 出身です。  
-**情報管理（Information Management）** を専攻し、  
-**インフラ・バックエンド・セキュリティ分野** に注力しています。
-
-また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、  
-技術とユーザー体験の両立を大切にしています。
-</div>
 
 
 
