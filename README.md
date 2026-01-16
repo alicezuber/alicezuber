@@ -55,7 +55,9 @@
 - **Backend & Security Focus**  
   Hands-on experience with **OAuth2 / OIDC**, API design,  
   and security-conscious backend development.
-
+  
+- **Blockchain & AI Trading Platform (Graduation Project)** Architected a **Carbon Credit Trading System** using **Node.js, Prisma, and Solidity**.  
+  [cite_start]Integrated an **LSTM-based anomaly detection model** to prevent fraud and ensured data immutability via a **private blockchain (Ganache)**.
 
 ---
 <div align="center">
@@ -82,6 +84,37 @@ and AI-assisted system interaction**.
 </p>
 
 <div align="center">
+
+---
+
+<div align="center">
+
+<h2>🎓 Graduation project — AI-Driven Transaction Security System</h2>
+
+<b>Hybrid LSTM-Transformer Microservice for Carbon Market Risk Control</b>
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=numpy,pandas,python,tensorflow,pytorch,fastapi,numpy,pandas&theme=light" />
+
+</div>
+
+<br/>
+
+<div align="left">
+
+<b>⚡ Deep Learning Architecture & Risk Engine</b><br/>
+Engineered a sophisticated anomaly detection pipeline designed to secure carbon credit trading. The core model implements a hybrid <b>Projection → LSTM → Transformer → Anomaly Head</b> architecture. By combining LSTM's capability to capture local temporal trends with Transformer's global attention mechanism, the system effectively identifies complex market manipulation patterns and fraudulent orders with high precision.
+
+<br/><br/>
+
+<b>🔗 Microservice Integration & System Security</b><br/>
+Designed the AI module as an independent <b>Python Microservice</b>, decoupling the inference engine from the main <b>Node.js (Express)</b> backend. This "Gatekeeper" system intercepts and sanitizes every order request <b>before</b> it reaches the matching engine or the <b>Ganache private blockchain</b>. Upon detecting high-risk behavior, the system automatically triggers an account freeze protocol, ensuring ledger immutability and platform integrity without manual intervention.
+
+</div>
+
+<hr/>
+
 
 ## 🧰 Tech Stack Snapshot 🧰
 
