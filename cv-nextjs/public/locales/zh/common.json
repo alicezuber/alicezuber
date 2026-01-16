@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "skills": "技能",
+    "gallery": "展示",
+    "projects": "项目",
+    "motto": "座右铭",
+    "contact": "联系"
+  },
+  "hero": {
+    "greeting": "你好，我是",
+    "title": "全栈工程师",
+    "subtitle": "专注于基础设施、后端与全栈开发",
+    "cta": "了解更多"
+  },
+  "about": {
+    "title": "关于我",
+    "descriptions": {
+      "0": "我是一名具有5年以上经验的基础设施和后端工程师",
+      "1": "精通云原生技术、微服务架构和分布式系统设计",
+      "2": "热爱开源项目，积极贡献于开发者社区",
+      "3": "业余时间探索游戏开发和创意编程"
+    }
+  },
+  "skills": {
+    "title": "技能展示",
+    "categories": {
+      "cloud": "☁️ 云基础设施",
+      "backend": "🔐 后端安全",
+      "tools": "🛠️ 开发工具"
+    }
+  },
+  "gallery": {
+    "title": "技术栈展示",
+    "items": {
+      "0": {
+        "title": "基础设施与DevOps",
+        "desc": "基於雲端的微服務架構"
+      },
+      "1": {
+        "title": "后端与安全",
+        "desc": "Python FastAPI 与 OIDC 整合"
+      },
+      "2": {
+        "title": "游戏开发",
+        "desc": "Godot 4 与 GDScript 开发"
+      },
+      "3": {
+        "title": "全栈开发",
+        "desc": "Next.js + TypeScript 完整技术栈"
+      }
+    },
+    "features": {
+      "performance": "🚀 高性能",
+      "secure": "🔒 安全可靠",
+      "design": "🎨 美观设计"
+    }
+  },
+  "projects": {
+    "title": "项目案例",
+    "items": {
+      "0": {
+        "title": "区块链交易引擎",
+        "desc": "开发了一个高性能的区块链交易引擎，支持多链资产交互和DeFi协议集成"
+      },
+      "1": {
+        "title": "企业 SSO 系统",
+        "desc": "构建了一个基于OAuth2和OIDC的企业级单点登录系统，支持多身份提供商"
+      },
+      "2": {
+        "title": "个人 Homelab",
+        "desc": "搭建了一套完整的家庭服务器环境，包括K8s集群、监控系统和自动化运维"
+      },
+      "3": {
+        "title": "Discord 机器人",
+        "desc": "开发了一个功能丰富的Discord机器人，用于社区管理和自动化任务"
+      }
+    }
+  },
+  "motto": {
+    "title": "座右铭",
+    "mottoes": {
+      "ja": "完璧を目指さず、前に進む。",
+      "en": "Perfect is the enemy of good. Ship it.",
+      "zh": "完美是善的敌人，先发布再优化。"
+    }
+  },
+  "footer": {
+    "company": "公司信息",
+    "links": "快速链接",
+    "social": "社交媒体",
+    "description": "一个全栈工程师的个人网站，展示我的项目和技能",
+    "copyright": "版权所有",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "discord": "Discord",
+    "email": "邮箱"
+  }
+}

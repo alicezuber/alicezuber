@@ -83,10 +83,8 @@ const translations = {
         aboutMeDesc1: "我來自 <a href=\"https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3\">台灣</a>，目前主修 <strong>資訊管理（Information Management）</strong>，專注於 <strong>Infrastructure / Backend / Security</strong> 相關領域。",
         aboutMeDesc2: "在技術之外，我長期參與 <strong>遊戲、MOD 與插件的在地化與翻譯工作</strong>，培養了良好的 <strong>跨語言溝通能力、細節敏感度，以及對使用者體驗的重視</strong>。",
         mottoTitle: "My Motto",
-        mottoJp: "どんな人でも手を繋げばもう友達さ！",
-        mottoEn: "No matter who you are, if we shake hands You're already my friend!",
-        mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
-        mottoCredit: "--- 畢卡拉(十二神将)",
+        mottoQuote: "任何足夠先進的技術都與魔法無異。",
+        mottoCredit: "--- Arthur C. Clarke",
         technicalSkillsTitle: "技術技能",
         infraDevOpsTitle: "基礎設施與維運",
         infraContainerTitle: "容器化",
@@ -216,10 +214,8 @@ const translations = {
         aboutMeDesc1: "I am from <a href=\"https://en.wikipedia.org/wiki/Taiwan\">Taiwan</a>. I major in <strong>Information Management</strong>, with a strong focus on <strong>Infrastructure, backend systems, and security-oriented development</strong>.",
         aboutMeDesc2: "In addition to engineering, I actively contribute to <strong>game, mod, and plugin localization projects</strong>, which strengthens my communication skills and attention to detail.",
         mottoTitle: "My Motto",
-        mottoJp: "どんな人でも手を繋げばもう友達さ！",
-        mottoEn: "No matter who you are, if we shake hands You're already my friend!",
-        mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
-        mottoCredit: "--- Vikala(十二神将)",
+        mottoQuote: "Any sufficiently advanced technology is indistinguishable from magic.",
+        mottoCredit: "--- Arthur C. Clarke",
         technicalSkillsTitle: "Technical Skills",
         infraDevOpsTitle: "Infrastructure & DevOps",
         infraContainerTitle: "Containerization",
@@ -349,10 +345,8 @@ const translations = {
         aboutMeDesc1: "私は <a href=\"https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE\">台湾</a> 出身です。 <strong>情報管理（Information Management）</strong> を専攻し、 <strong>インフラ・バックエンド・セキュリティ分野</strong> に注力しています。",
         aboutMeDesc2: "また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、技術とユーザー体験の両立を大切にしています。",
         mottoTitle: "My Motto",
-        mottoJp: "どんな人でも手を繋げばもう友達さ！",
-        mottoEn: "No matter who you are, if we shake hands You're already my friend!",
-        mottoZh: "無論是什麼樣的人，只要牽起手來就是朋友！",
-        mottoCredit: "--- ビカラ(十二神将)",
+        mottoQuote: "十分に発達した科学技術は、魔法と見分けがつかない。",
+        mottoCredit: "--- Arthur C. Clarke",
         technicalSkillsTitle: "技術スキル",
         infraDevOpsTitle: "インフラとDevOps",
         infraContainerTitle: "コンテナ化",
@@ -548,9 +542,7 @@ const updateContent = (lang) => {
     
     // Update motto section
     document.querySelector('[data-i18n="mottoTitle"]').textContent = translations[lang].mottoTitle;
-    document.querySelector('[data-i18n="mottoJp"]').textContent = translations[lang].mottoJp;
-    document.querySelector('[data-i18n="mottoEn"]').textContent = translations[lang].mottoEn;
-    document.querySelector('[data-i18n="mottoZh"]').textContent = translations[lang].mottoZh;
+    document.querySelector('[data-i18n="mottoQuote"]').textContent = translations[lang].mottoQuote;
     document.querySelector('[data-i18n="mottoCredit"]').textContent = translations[lang].mottoCredit;
     
     // Update technical skills section

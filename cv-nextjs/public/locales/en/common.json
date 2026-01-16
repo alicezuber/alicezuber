@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "gallery": "Gallery",
+    "projects": "Projects",
+    "motto": "Motto",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "title": "Full Stack Engineer",
+    "subtitle": "Focused on infrastructure, backend and full stack development",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Me",
+    "descriptions": {
+      "0": "I'm an infrastructure and backend engineer with 5+ years of experience",
+      "1": "Expertise in cloud-native technologies, microservices architecture and distributed systems design",
+      "2": "Passionate about open source projects and active contributor to the developer community",
+      "3": "Exploring game development and creative coding in my spare time"
+    }
+  },
+  "skills": {
+    "title": "Skills Showcase",
+    "categories": {
+      "cloud": "☁️ Infrastructure",
+      "backend": "🔐 Backend",
+      "tools": "🛠️ Tools"
+    }
+  },
+  "gallery": {
+    "title": "Tech Stack",
+    "items": {
+      "0": {
+        "title": "Infrastructure & DevOps",
+        "desc": "Cloud-based microservices architecture"
+      },
+      "1": {
+        "title": "Backend & Security",
+        "desc": "Python FastAPI with OIDC integration"
+      },
+      "2": {
+        "title": "Game Development",
+        "desc": "Godot 4 and GDScript development"
+      },
+      "3": {
+        "title": "Full Stack",
+        "desc": "Next.js + TypeScript complete stack"
+      }
+    },
+    "features": {
+      "performance": "🚀 High Performance",
+      "secure": "🔒 Secure & Reliable",
+      "design": "🎨 Beautiful Design"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": {
+      "0": {
+        "title": "Blockchain Trading Engine",
+        "desc": "Developed a high-performance blockchain trading engine supporting multi-chain asset interaction and DeFi protocol integration"
+      },
+      "1": {
+        "title": "Enterprise SSO System",
+        "desc": "Built an enterprise-grade single sign-on system based on OAuth2 and OIDC with support for multiple identity providers"
+      },
+      "2": {
+        "title": "Personal Homelab",
+        "desc": "Set up a complete home server environment including K8s cluster, monitoring system and automated operations"
+      },
+      "3": {
+        "title": "Discord Bot",
+        "desc": "Developed a feature-rich Discord bot for community management and automation tasks"
+      }
+    }
+  },
+  "motto": {
+    "title": "My Motto",
+    "mottoes": {
+      "ja": "完璧を目指さず、前に進む。",
+      "en": "Perfect is the enemy of good. Ship it.",
+      "zh": "完美是善的敌人，先发布再优化。"
+    }
+  },
+  "footer": {
+    "company": "Company",
+    "links": "Quick Links",
+    "social": "Social Media",
+    "description": "A full stack engineer's personal website showcasing my projects and skills",
+    "copyright": "All Rights Reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "discord": "Discord",
+    "email": "Email"
+  }
+}
