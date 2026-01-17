@@ -35,7 +35,7 @@
   and access management across services.
 
 - **Real-time VPS Observability**  
-  Built a **Web Push notification pipeline** to deliver  
+  Built a [**Web Push notification pipeline**](https://oyodo.baiyun.cv) to deliver  
   **real-time VPS health and system events** directly to mobile devices  
   with low latency.
 
