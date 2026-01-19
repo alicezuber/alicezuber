@@ -1,14 +1,14 @@
 # 自架部落格開發待辦清單 (Dev Only)
 
 ## Core / 核心架構
-- [ ] 初始化 Astro 專案 (`npm create astro@latest -- --template blog --typescript --strict --install`)
-- [ ] 配置 Tailwind CSS 設定檔 (`astro.config.mjs`, `tailwind.config.js`)
-- [ ] 規劃 Pages 結構 (`src/pages/`, `src/components/`, `src/layouts/`, `src/content/`)
-- [ ] 設計 Content Collections 架構 (`src/content/config.ts`, schema validation)
-- [ ] 實作 MDX 遠端渲染 (`@astrojs/mdx`, `gray-matter`, `remark/rehype` plugins)
-- [ ] 配置 Shiki 程式碼高亮 (`astro.config.mjs` shiki config, custom themes)
-- [ ] 實作 RSS 2.0 Feed 生成 (`@astrojs/rss`, RSS endpoint)
-- [ ] 實作 sitemap.xml 生成 (`@astrojs/sitemap`, dynamic sitemap)
+- [ V] 初始化 Astro 專案 (`npm create astro@latest -- --template blog --typescript --strict --install`)
+- [ V] 配置 Tailwind CSS 設定檔 (`astro.config.mjs`, `tailwind.config.js`)
+- [ V] 規劃 Pages 結構 (`src/pages/`, `src/components/`, `src/layouts/`, `src/content/`)
+- [ V] 設計 Content Collections 架構 (`src/content/config.ts`, schema validation)
+- [ V] 實作 MDX 遠端渲染 (`@astrojs/mdx`, `gray-matter`, `remark/rehype` plugins)
+- [ V] 配置 Shiki 程式碼高亮 (`astro.config.mjs` shiki config, custom themes)
+- [ V] 實作 RSS 2.0 Feed 生成 (`@astrojs/rss`, RSS endpoint)
+- [ V] 實作 sitemap.xml 生成 (`@astrojs/sitemap`, dynamic sitemap)
 
 ## UI Components / 元件開發
 - [ ] 建立 BaseLayout (`src/layouts/BaseLayout.astro`, `<slot />`)
