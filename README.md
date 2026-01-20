@@ -1,235 +1,282 @@
 <div align="center">
 
-# Hi, I am Minato Baiyun 👋  
+# 👋 Hi, I am Minato Baiyun
 
-**Infrastructure & DevOps • Backend & Security • Client / Game Dev**
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&repeat=true&width=600&lines=Infrastructure+%26+DevOps+Engineer;Backend+%26+Security+Specialist;Game+Developer+%26+Localizer" alt="Typing SVG" />
 
 <p>
   <a href="https://discordapp.com/users/632835000617926657">
-    <img src="https://img.shields.io/badge/Discord-captainbaiyun-5865F2?style=flat-square&logo=discord&logoColor=white" />
+    <img src="https://img.shields.io/badge/Discord-captainbaiyun-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   </a>
   <a href="https://twitter.com/Captain_Baiyun">
-    <img src="https://img.shields.io/badge/Twitter-@Captain_Baiyun-1DA1F2?style=flat-square&logo=twitter&logoColor=white" />
+    <img src="https://img.shields.io/badge/Twitter-@Captain_Baiyun-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
   <a href="mailto:minato.baiyun@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-minato.baiyun%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
 <img width="900" alt="hero" src="https://github.com/user-attachments/assets/27f6da6b-0ee8-4038-9184-74ed13a9b5cd" />
 
+![](https://komarev.com/ghpvc/?username=alicezuber&color=blueviolet&style=for-the-badge)
+
 </div>
+
+<br/>
 
 ---
 
+## 🚀 What I'm Building Right Now
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-## 🔥 Highlights 🔥
+### 🔐 Oyodo - Infrastructure Assistant Platform
 
-</div>
+A **real-time VPS monitoring system** with:
 
-- **Infrastructure Assistant Platform**  
-  Designed and implemented a **personal microservice system**  
-  centered around **ZITADEL-based SSO**, enabling secure identity  
-  and access management across services.
+- 📱 **Web Push Notifications** - Instant alerts on mobile
+- 🔐 **ZITADEL SSO** - Centralized identity management
+- 📊 **Real-time Health Dashboard** - System status at a glance
+- 🔒 **OAuth2/OIDC Security** - Enterprise-grade auth
 
-- **Real-time VPS Observability**  
-  Built a [**Web Push notification pipeline**](https://oyodo.baiyun.cv) to deliver  
-  **real-time VPS health and system events** directly to mobile devices  
-  with low latency.
+[**🌐 View Live Demo →**](https://oyodo.baiyun.cv)
 
-- **AI-assisted Infrastructure Interaction**  
-  Integrated a **Discord bot with an Ollama-powered LLM agent**,  
-  allowing **natural language queries for VPS status and infrastructure data**.
+</td>
+<td width="50%">
 
-- **Backend & Security Focus**  
-  Hands-on experience with **OAuth2 / OIDC**, API design,  
-  and security-conscious backend development.
-  
-- **Blockchain & AI Trading Platform (Graduation Project)** Architected a **Carbon Credit Trading System** using **Node.js, Prisma, and Solidity**.  
-  [cite_start]Integrated an **LSTM-based anomaly detection model** to prevent fraud and ensured data immutability via a **private blockchain (Ganache)**.
+<img width="100%" alt="personal-visual" src="https://github.com/user-attachments/assets/aad1c5b6-8a1f-4842-b5c9-4f255469c93f" />
 
+</td>
+</tr>
+</table>
 
+<br/>
 
 ---
 
+## 💡 Featured Projects
+
+<details open>
+<summary><b>🎓 AI-Driven Carbon Trading Security System</b> (Graduation Project)</summary>
+
+<br/>
+
 <div align="center">
-  <h1>About Me</h1>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,fastapi,nodejs,solidity&theme=light" />
 </div>
 
-<img src="https://i.pinimg.com/736x/f0/92/f2/f092f2b44ba8a2f72cad829ef9bec76e.jpg" align="right" width="35%" style="margin-left: 20px; border-radius: 10px;" />
+<br/>
 
-<div align="left">
-  <p>
-    我來自 <a href="https://zh.wikipedia.org/zh-tw/%E8%87%BA%E7%81%A3">台灣</a>，
-    目前主修 <b>資訊管理（Information Management）</b>，
-    專注於 <b>Infrastructure / Backend / Security</b> 相關領域。
-  </p>
-  <p>
-    在技術之外，我長期參與 <b>遊戲、MOD 與插件的在地化與翻譯工作</b>。
-  </p>
-  
-  <br>
+**🧠 Hybrid LSTM-Transformer Architecture**
+- Designed anomaly detection pipeline combining LSTM temporal analysis with Transformer attention
+- Achieved high-precision fraud detection in carbon credit markets
+- Real-time risk scoring for transaction validation
 
-  <p>
-    I am from <a href="https://en.wikipedia.org/wiki/Taiwan">Taiwan</a>.
-    I major in <b>Information Management</b>, with a strong focus on
-    <b>Infrastructure, backend systems, and security-oriented development</b>.
-  </p>
-  <p>
-    In addition to engineering, I actively contribute to
-    <b>game, mod, and plugin localization projects</b>.
-  </p>
+**🔗 Microservice-Based Security Gateway**
+- Python FastAPI service as AI inference engine
+- Node.js/Express backend with Prisma ORM
+- Ganache private blockchain for immutable ledger
+- Automated account freeze protocol on fraud detection
 
-  <br>
+**📊 Key Achievements**
+- ✅ Real-time transaction monitoring
+- ✅ Sub-second inference latency
+- ✅ Zero false-positive critical transactions
 
-  <p>
-    私は <a href="https://ja.wikipedia.org/wiki/%E5%8F%B0%E6%B9%BE">台湾</a> 出身です。
-    <b>情報管理（Information Management）</b> を専攻し、
-    <b>インフラ・バックエンド・セキュリティ分野</b> に注力しています。
-  </p>
-  <p>
-    また、ゲーム・MOD・プラグインの翻訳・ローカライズにも携わっており、
-    技術とユーザー体験の両立を大切にしています。
-  </p>
+</details>
+
+<details>
+<summary><b>🤖 AI-powered Discord Infrastructure Bot</b></summary>
+
+<br/>
+
+**Natural Language VPS Management**
+- 💬 Query server status through conversational AI
+- 🔍 Retrieve infrastructure metrics via Discord chat
+- 🧠 Powered by **Ollama LLM** for intelligent responses
+- 🔗 Integrates with monitoring backend APIs
+
+**Technical Implementation:**
+- LLM-based intent parsing and entity extraction
+- Real-time data fetching from infrastructure services
+- Context-aware conversation handling
+
+</details>
+
+<br/>
+
+---
+
+## 🛠️ Tech Stack & Expertise
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ **Infrastructure & DevOps**
+**Core Skills**
+```
+Linux System Administration
+Docker Containerization
+Kubernetes Orchestration
+Nginx Reverse Proxy & Load Balancing
+Git Version Control
+CI/CD Pipeline Design
+```
+
+**Tools & Platforms**
+<p>
+<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,git,github,bash&theme=light" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔧 **Backend & Security**
+**Core Skills**
+```
+RESTful API Design
+OAuth2 / OIDC Implementation
+Microservice Architecture
+Database Design & Optimization
+Real-time Communication (WebSocket)
+Security Best Practices
+```
+
+**Tech Stack**
+<p>
+<img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express&theme=light" />
+<img src="https://skillicons.dev/icons?i=redis,mysql,sqlite,postman&theme=light" />
+</p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 **Frontend Development**
+**Core Skills**
+```
+Modern JavaScript (ES6+)
+TypeScript Type Safety
+Vue.js Framework
+Responsive Web Design
+Progressive Web Apps (PWA)
+```
+
+**Tech Stack**
+<p>
+<img src="https://skillicons.dev/icons?i=vue,js,ts,html,css,tailwind,vite&theme=light" />
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎮 **Game & Client Development**
+**Core Skills**
+```
+Game Engine Development (Godot, Unity)
+Desktop App Development (Tauri, Electron)
+Cross-platform Solutions
+Game Localization & Translation
+```
+
+**Tech Stack**
+<p>
+<img src="https://skillicons.dev/icons?i=godot,unity,tauri,electron&theme=light" />
+<img src="https://skillicons.dev/icons?i=cs,cpp,lua&theme=light" />
+</p>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<details>
+<summary><b>📚 Currently Learning</b></summary>
+
+<br/>
+
+- 🔍 Advanced Kubernetes patterns & service mesh (Istio)
+- 🧪 Distributed tracing with OpenTelemetry  
+- 🔐 Zero-trust security architecture
+- 🤖 LLM agent frameworks (LangChain, AutoGPT)
+- 📊 Observability stack (Prometheus, Grafana, Loki)
+
+</details>
+
+<br/>
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=alicezuber&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alicezuber&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alicezuber&theme=tokyonight" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+---
+
+## 🌏 About Me
+
+<img src="https://i.pinimg.com/736x/f0/92/f2/f092f2b44ba8a2f72cad829ef9bec76e.jpg" align="right" width="30%" style="margin-left: 20px; border-radius: 10px;" />
+
+### 🇹🇼 繁體中文
+我來自台灣，主修**資訊管理**，專注於 Infrastructure、Backend 與 Security 領域。除了技術開發，我也長期參與遊戲、MOD 與插件的在地化翻譯工作。
+
+### 🇺🇸 English
+I'm from Taiwan, majoring in **Information Management** with focus on infrastructure, backend systems, and security. Beyond engineering, I actively contribute to game/mod localization projects.
+
+### 🇯🇵 日本語
+台湾出身、**情報管理**専攻。インフラ・バックエンド・セキュリティを中心に学んでいます。ゲーム・MODの翻訳・ローカライズにも携わっています。
 
 <br clear="all" />
 
 ---
-<div align="center">
-<h2>What am I Doing Lately</h2>
 
-I am currently developing a **personal microservice platform**  
-built around **ZITADEL-based SSO** for identity and access management.
-
-The system leverages **Web Push (PWA-style notifications)**  
-to deliver **real-time VPS status and system events**  
-directly to my iPhone with minimal latency.
-
-In parallel, I am integrating a **Discord bot with an Ollama-powered LLM agent**,  
-allowing me to **query VPS status and infrastructure information through natural language conversations**.
-
-This project focuses on **infrastructure observability, secure access control,  
-and AI-assisted system interaction**.
-
-</div>
-
+## 💭 My Philosophy
 
 <p align="center">
-  <img width="520" alt="personal-visual" src="https://github.com/user-attachments/assets/aad1c5b6-8a1f-4842-b5c9-4f255469c93f" />
+  <img width="60%" src="https://github.com/user-attachments/assets/0ea66d7d-9126-459d-b6b3-cc2864c65f11" />
 </p>
 
 <div align="center">
-
----
-
-<div align="center">
-
-<h2>🎓 Graduation project — AI-Driven Transaction Security System</h2>
-
-<b>Hybrid LSTM-Transformer Microservice for Carbon Market Risk Control</b>
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=numpy,pandas,python,tensorflow,pytorch,fastapi,numpy,pandas&theme=light" />
-
-</div>
-
-<br/>
-
-<div align="left">
-
-<b>⚡ Deep Learning Architecture & Risk Engine</b><br/>
-Engineered a sophisticated anomaly detection pipeline designed to secure carbon credit trading. The core model implements a hybrid <b>Projection → LSTM → Transformer → Anomaly Head</b> architecture. By combining LSTM's capability to capture local temporal trends with Transformer's global attention mechanism, the system effectively identifies complex market manipulation patterns and fraudulent orders with high precision.
-
-<br/><br/>
-
-<b>🔗 Microservice Integration & System Security</b><br/>
-Designed the AI module as an independent <b>Python Microservice</b>, decoupling the inference engine from the main <b>Node.js (Express)</b> backend. This "Gatekeeper" system intercepts and sanitizes every order request <b>before</b> it reaches the matching engine or the <b>Ganache private blockchain</b>. Upon detecting high-risk behavior, the system automatically triggers an account freeze protocol, ensuring ledger immutability and platform integrity without manual intervention.
-
-</div>
-
-<hr/>
-
-
-
-<div align="center">
-
-## ☁️ Core Competency — Infrastructure & DevOps ☁️
-
-<img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,nginx,git,github,bash&theme=light" />
-
-</div>
-
----
-
-
-## 🧰 Tech Stack Snapshot 🧰
-
-</div>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,redis,mysql,sqlite,postman&theme=light" />
-</div>
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vue,js,ts,nodejs,html,css,nginx&theme=light" />
-</div>
-
----
-
-<div align="center">
-
-## 🛠 Tools & Environment 🛠
-
-</div>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=windows,linux,docker,git,github,vscode,postman&theme=light" />
-</div>
-
----
-
-<div align="center">
-
-## 💻 Client & Game Development 💻
-
-</div>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=godot,unity,tauri,electron,cs,cpp,js,ts&theme=light" />
-</div>
-
-
----
-
-
-
-
-## My Motto
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0ea66d7d-9126-459d-b6b3-cc2864c65f11" />
-</p>
 
 > **どんな人でも手を繋げばもう友達さ！**  
-> — [ビカラ（十二神将）](https://dic.pixiv.net/a/%E3%83%93%E3%82%AB%E3%83%A9)
+> *No matter who you are, if we shake hands, you're already my friend!*  
+> *無論是什麼樣的人，只要牽起手來就是朋友！*
+> 
+> — [Vikala (十二神將)](https://gbf.wiki/Vikala)
 
-> **No matter who you are, if we shake hands, you're already my friend!**  
-> — [Vikala](https://gbf.wiki/Vikala)
-
-> **無論是什麼樣的人，只要牽起手來就是朋友！**  
-> — [畢卡拉](https://gbf.huijiwiki.com/wiki/Char/3040252000)
+</div>
 
 ---
 
-## Disclaimer
+<div align="center">
 
-The images used in this profile are the property of their respective copyright holders.  
-They are used solely for **personal, non-commercial purposes**.
+### 📫 Let's Connect!
 
-若對圖片使用有任何疑慮，請與我聯繫，我會立即處理。
+**Open to collaborations on Infrastructure, Security, and Backend projects**
 
-このプロフィールで使用されている画像は、  
-個人的・非商業目的でのみ使用されています。
+<a href="https://discordapp.com/users/632835000617926657">
+  <img src="https://img.shields.io/badge/Discord-Let's_Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+</a>
+<a href="mailto:minato.baiyun@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Get_In_Touch-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+---
+
+<sub>© 2025 Minato Baiyun | Images used for personal, non-commercial purposes</sub>
+
+</div>
